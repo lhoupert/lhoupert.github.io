@@ -5,6 +5,8 @@ title: Publications
 permalink: /publications/
 ---
 
+*The list of publications will be added soon. At the meantime, you can access them through Web of Science by clicking on the badge below.*
+
 <span id="badgeCont599"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont599&rid=Y-5796-2019"></script></span>
 
 <!--
