@@ -3,10 +3,14 @@ layout: archive
 author_profile: false
 title: About
 permalink: /about/
-feature-img: /assets/images/loic2web.jpg
+feature-img:
+feature_row1:
+  - image_path: /assets/images/loic2web.jpg
 ---
 
-![]({{ site.baseurl }}/assets/images/loic2web.jpg){:.center-image width="40%"}
+
+{% include feature_row id="feature_row1" type="center" width="40%" %}
+
 
 I am a Research Scientist at the [National Oceanography Centre](https://www.noc.ac.uk/){:target="_blank"} using programming, statistics and data analysis technics to turn ocean and climate data into scientific results.
 
