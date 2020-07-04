@@ -61,26 +61,46 @@ author:
   name   : "Loïc Houpert"
   avatar : "/assets/images/loic2web.jpg"
   bio    : "Research Scientist working with Ocean and Climate Data. Interested in #openscience."
+  location  : "Southampton, UK"
   links:
+
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:loichoupert@noc.ac.uk
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://lhoupert.fr"
+      url: "https://www.noc.ac.uk/people/locupe"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/loichoupert"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lhoupert"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Loic_Houpert"
 
 
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.noc.ac.uk/people/locupe"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/loichoupert"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lhoupert"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Loic_Houpert"
 
 
 defaults:
