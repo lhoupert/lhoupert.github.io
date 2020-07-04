@@ -1,15 +1,15 @@
 ---
 layout: archive
-classes: wide
 author_profile: true
+classes: wide
 title: CV
 permalink: /cv/
 ---
 ## Previous Employment and Education
-+ 2019-    , Research Scientist, Physical Oceanography, National Oceanography Centre, Southampton
-+ 2014-2018, Postdoctoral Associate, Physical Oceanography, Scottish Association for Marine Science
-+ 2013–2014, Postdoctoral Associate, Physical Oceanography, LOCEAN, Paris
-+ 2010–2013, PhD Fellow, Oceanography, CNRS, Perpignan
++ 2019-    , Research Scientist, National Oceanography Centre, Southampton
++ 2014-2018, Postdoctoral Associate, Scottish Association for Marine Science
++ 2013–2014, Postdoctoral Associate, LOCEAN, Paris
++ 2010–2013, PhD Fellow in Oceanography, CNRS, Perpignan
 + 2008–2010, MSc, Atmospheric and Oceanic Physics, Université Pierre et Marie Curie, Paris
 + 2005-2008, BSc, Maths-Physics-Chemistry, Université de Strasbourg
 
