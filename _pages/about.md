@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 feature-img: /assets/images/loic2web.jpg
