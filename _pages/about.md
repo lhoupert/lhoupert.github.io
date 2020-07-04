@@ -1,8 +1,12 @@
 ---
+layout: page
+title: About
 permalink: /about/
-title: "About"
+feature-img: /assets/images/loic2web.jpg
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+![]({{ site.baseurl }}/img/portrait-pm.png){:.center-image width="40%"}
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I am a Research Scientist at the [National Oceanography Centre](https://www.noc.ac.uk/){:target="_blank"}. I am using programming, statistics and data analysis to turn ocean and climate data into scientific results.
+
+ I am using a wide range of instruments/tools (ship, underwater robots, satellite, numerical models) to understand modern oceanographic processes and their relationships to climate variability. Currently at the National Oceanography Centre, I am interested in the role of the North Atlantic on the global ocean circulation and the European climate. I am particularly involved in the UK-OSNAP (Overturning in the Subpolar North Atlantic Program). I have participated in 11 hydrographic and mooring cruises in the Mediterranean Sea and in the North Atlantic.
