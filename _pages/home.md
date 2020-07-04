@@ -1,13 +1,11 @@
 ---
 title: "Loïc Houpert"
 layout: splash
-permalink: /splash-page
+permalink: /
 header:
-  overlay_color: "#fff"
+  overlay_color: "#581845"
   overlay_image: /assets/images/capcreus.jpg
 excerpt: " Research Scientist"
 intro:
   - excerpt: ' '
 ---
-
-{% include feature_row id="intro" type="center" %}
