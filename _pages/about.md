@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: /assets/images/loic2web.jpg
 ---
 
-![]({{ site.baseurl }}/img/portrait-pm.png){:.center-image width="40%"}
+![]({{ site.baseurl }}/assets/images/loic2web.jpg){:.center-image width="40%"}
 
 I am a Research Scientist at the [National Oceanography Centre](https://www.noc.ac.uk/){:target="_blank"}. I am using programming, statistics and data analysis to turn ocean and climate data into scientific results.
 
