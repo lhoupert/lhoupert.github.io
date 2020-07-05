@@ -1,0 +1,31 @@
+@import "minimal-mistakes";
+
+$font-family-main: 'Lato', Helvetica, Arial, sans-serif;
+$font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
+$font-size: 1.0em;
+
+body {
+  color: $text-color;
+  font-family: $font-family-main;
+  font-size: $font-size;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headings;
+  line-height: 1.25;
+  margin: 0.5em 0;
+  a {
+    color: $text-color;
+  }
+}
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
