@@ -26,7 +26,8 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -77,11 +78,14 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lhoupert"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fa fa-fw fa-university"
       url: "https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Loic_Houpert"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lo%C3%AFc-houpert-29232037/?locale=en_US"
 
 
 footer:
@@ -96,11 +100,14 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lhoupert"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fa fa-fw fa-university"
       url: "https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Loic_Houpert"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lo%C3%AFc-houpert-29232037/?locale=en_US"
 
 
 defaults:

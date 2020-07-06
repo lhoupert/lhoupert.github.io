@@ -12,7 +12,7 @@ gallery:
 
 I recently moved from Matlab to Python. I created a git repository containing
 Jupyter notebooks of the python code I am using in my current project.
-This code is used to analyse and visualise data from the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/). You can access it on my github [[here](https://github.com/lhoupert/analysis_eel_data).
+This code is used to analyse and visualise data from the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/). You can access it on my github [[here]](https://github.com/lhoupert/analysis_eel_data).
 
 
 {% include gallery %}

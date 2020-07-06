@@ -1,21 +1,40 @@
-@import "minimal-mistakes";
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 $font-family-main: 'Lato', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
-$font-size: 1.0em;
+// $font-size: 1.0em;
 
-body {
-  color: $text-color;
+
+html {
   font-family: $font-family-main;
-  font-size: $font-size;
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-family: $font-family-headings;
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+      font-family: $font-family-headings;
+      font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-family: $font-family-headings;
+    font-size: 20px; // change to whatever
+  }
+}
+body {
+  font-family: $font-family-main;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
-  line-height: 1.25;
+  line-height: 1.5;
   margin: 0.5em 0;
-  a {
-    color: $text-color;
-  }
 }
 h1 {
   font-size: 2.25em;
@@ -29,3 +48,56 @@ h3 {
 h4 {
   font-size: 1.5em;
 }
+
+.fa-linkedin {
+  color: #62afdf !important;
+}
+
+.fa-researchgate {
+  color: #57d739  !important;
+}
+
+.fa-github {
+  color: $text-color !important;
+}
+
+.archive a{
+    color: #6db8e3 ;
+}
+
+.page__hero--overlay .page__title{
+  color: #252a34 !important;
+}
+.page__hero--overlay .page__lead{
+  color: #252a34 !important;
+}
+
+.sidebar {
+  font-family: $font-family-main;
+  font-size: 1.1em; // change to whatever
+}
+
+
+.page {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+  }
+
+  }
+
+  .page__hero--overlay {
+      .wrapper {
+        @include breakpoint($x-large) {
+          max-width: $max-width;
+          }
+      }
+  }
+  

@@ -1,9 +1,14 @@
 ---
-layout: archive
 author_profile: true
 title: Publications
 permalink: /publications/
+toc: true
+toc_sticky: true
+toc_label: "Publications"
+toc_icon: "file-alt"
 ---
+
+{% include figure image_path="/assets/images/dunst.jpg" alt="" %}
 
 *The list of publications will be added soon. At the meantime, you can access them through Web of Science by clicking on the badge below.*
 
