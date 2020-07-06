@@ -1,19 +1,32 @@
 ---
 author_profile: true
+layout: archive
 title: Publications
-permalink: /publications/
-toc: true
+permalink: /pubs/
+toc: false
 toc_sticky: true
-toc_label: "Publications"
+toc_label: " "
 toc_icon: "file-alt"
 ---
 
 {% include figure image_path="/assets/images/dunst.jpg" alt="" %}
 
-*The list of publications will be added soon. At the meantime, you can access them through Web of Science by clicking on the badge below.*
+## Preprint Articles
+{% for paper in site.data.preprint %}
++ {{ paper.num }}  &nbsp;  {{ paper.authors }}, {{paper.title}}, {{paper.journal}}, {{paper.year}}{% if paper.doi %}, [{{paper.doi}}]({{ paper.doilink }})  {% endif %}{% endfor %}
 
-<span id="badgeCont599"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont599&rid=Y-5796-2019"></script></span>
+<br>
+## Peer-reviewed Articles
+{% for paper in site.data.publis %}
++ {{ paper.num }}  &nbsp;  {{ paper.authors }}, {{paper.title}}, {{paper.journal}}, {{paper.year}}{% if paper.doi %}, [{{paper.doi}}]({{ paper.doilink }})  {% endif %}{% endfor %}
 
+Link to [Web of Science](https://publons.com/mashlets?el=badgeCont599&rid=Y-5796-2019)
+
+<!-- ## Presentations
+#### Talks
+
+
+#### Poster
 <!--
 ## Preprint Articles
 {% for paper in site.data.preprint %}
@@ -29,4 +42,4 @@ toc_icon: "file-alt"
 
 ## Posters
 {% for poster in site.data.posters %}
-+ {{ poster.authors }}, {{poster.title}}, {{poster.event}}, {{poster.location}}, {{poster.date}}{% if poster.doi %}, [link]({{ poster.doi }}){% endif %}{% if poster.path %}, [pdf]({{ poster.path }}) {% endif %}{% endfor %} -->
++ {{ poster.authors }}, {{poster.title}}, {{poster.event}}, {{poster.location}}, {{poster.date}}{% if poster.doi %}, [link]({{ poster.doi }}){% endif %}{% if poster.path %}, [pdf]({{ poster.path }}) {% endif %}{% endfor %} --> -->

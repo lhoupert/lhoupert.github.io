@@ -70,10 +70,11 @@ h4 {
 }
 
 .page__hero--overlay .page__title{
-  color: #252a34 !important;
+  font-family: $font-family-main;
+  color:  #1f618d    !important;
 }
 .page__hero--overlay .page__lead{
-  color: #252a34 !important;
+  color:  #1f618d   !important;
 }
 
 .sidebar {
@@ -103,4 +104,11 @@ h4 {
           max-width: $max-width;
           }
       }
+  }
+
+
+
+.archive  ul {
+      list-style-type: none;
+      text-indent: -2.5em;
   }
