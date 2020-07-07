@@ -116,3 +116,15 @@ h4 {
 // .splash h2.archive__item-title {
 //        text-align: center;
 // }
+
+body.layout--splash .masthead {
+  display: none;
+}
+
+body.layout--splash .archive__item{
+   text-align: center;
+}
+
+button.search__toggle {
+  display: none;
+}

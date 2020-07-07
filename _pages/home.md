@@ -8,7 +8,7 @@ header:
 excerpt: " <br/>  Research Scientist <br/> <br/> <br/> <br/> <br/> <br/>"
 intro:
   - excerpt: ' '
-feature_row:
+feature_row_links:
   - image_path: assets/images/cv.png    
     alt: "placeholder image CV"
     title: CV    
@@ -32,4 +32,4 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row %}
+{% include feature_row_links %}
