@@ -27,6 +27,7 @@ Link to [Web of Science](https://publons.com/mashlets?el=badgeCont599&rid=Y-5796
 
 
 #### Poster
+-->
 <!--
 ## Preprint Articles
 {% for paper in site.data.preprint %}
@@ -42,4 +43,4 @@ Link to [Web of Science](https://publons.com/mashlets?el=badgeCont599&rid=Y-5796
 
 ## Posters
 {% for poster in site.data.posters %}
-+ {{ poster.authors }}, {{poster.title}}, {{poster.event}}, {{poster.location}}, {{poster.date}}{% if poster.doi %}, [link]({{ poster.doi }}){% endif %}{% if poster.path %}, [pdf]({{ poster.path }}) {% endif %}{% endfor %} --> -->
++ {{ poster.authors }}, {{poster.title}}, {{poster.event}}, {{poster.location}}, {{poster.date}}{% if poster.doi %}, [link]({{ poster.doi }}){% endif %}{% if poster.path %}, [pdf]({{ poster.path }}) {% endif %}{% endfor %} -->
