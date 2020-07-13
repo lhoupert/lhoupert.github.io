@@ -17,4 +17,4 @@ This code is used to analyse and visualise data from the [Extended Ellett Line (
 
 {% include gallery %}
 
-You will find some useful bit of code to plot maps using *cartopy* or hydrographic sections using *matplotlib*. New notebooks using the [xarray](http://xarray.pydata.org/en/stable/) package will be added in the near future! *xarray* is a fantastic and powerful to manipulate multi-dimensional array.
+You will find some useful bit of code to plot maps using *cartopy* or hydrographic sections using *matplotlib*. New notebooks using the [xarray](http://xarray.pydata.org/en/stable/) package will be added in the near future! *xarray* is a powerful tool to manipulate multi-dimensional array.

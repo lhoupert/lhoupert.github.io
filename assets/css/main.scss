@@ -77,6 +77,13 @@ h4 {
   color:  #1f618d   !important;
 }
 
+body.layout--splash .page__title{
+      font-size: 3em;
+}
+body.layout--splash .page__lead{
+      font-size: 2em;
+}
+
 .sidebar {
   font-family: $font-family-main;
   font-size: 1.1em; // change to whatever
