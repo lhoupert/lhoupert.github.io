@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#00000" #"#581845"
   overlay_image: /assets/images/capcreus.jpg
-excerpt: " <br/>  Research Scientist <br/> <br/> <br/>  <br/>"
+excerpt: " <br/>  Research / Data Scientist <br/> <br/> <br/>  <br/>"
 intro:
   - excerpt: ' '
 feature_row_links:
