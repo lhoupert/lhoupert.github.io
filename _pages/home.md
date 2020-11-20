@@ -26,7 +26,7 @@ feature_row_links:
   - image_path: /assets/images/code.png
     alt: "placeholder image code"
     title: Code
-    excerpt: "I recently transitioned to **Python** to move towards #OpenScience practices."        
+    excerpt: "Have a look to my projects."        
     url: "/code/"
     btn_label: "Learn more"
     btn_class: "btn--primary"

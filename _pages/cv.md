@@ -52,7 +52,7 @@ toc_icon: "file-alt"
 
 <br/>
 #### Fieldwork
-+ 11 oceanographic cruises, 180 days at sea in the North Atlantic and in the Mediterranean.
++ 12 oceanographic cruises, 200 days at sea in the North Atlantic and in the Mediterranean.
 Planned and led fieldwork activities, liaise with mariners, cruise reports redaction
 + 9 ocean glider missions (underwater robot) [2014-2018]: piloting, data processing and analysis
 

@@ -11,16 +11,19 @@ toc_icon: "file-alt"
 
 {% include figure image_path="/assets/images/dunst.jpg" alt="" %}
 
-## Preprint Articles
-{% for paper in site.data.preprint %}
-+ {{ paper.num }}  &nbsp;  {{ paper.authors }}, {{paper.title}}, {{paper.journal}}, {{paper.year}}{% if paper.doi %}, [{{paper.doi}}]({{ paper.doilink }})  {% endif %}{% endfor %}
 
-<br>
 ## Peer-reviewed Articles
 {% for paper in site.data.publis %}
 + {{ paper.num }}  &nbsp;  {{ paper.authors }}, {{paper.title}}, {{paper.journal}}, {{paper.year}}{% if paper.doi %}, [{{paper.doi}}]({{ paper.doilink }})  {% endif %}{% endfor %}
 
 Link to [Web of Science](https://publons.com/mashlets?el=badgeCont599&rid=Y-5796-2019)
+
+<br>
+## Preprint Articles
+{% for paper in site.data.preprint %}
++ {{ paper.num }}  &nbsp;  {{ paper.authors }}, {{paper.title}}, {{paper.journal}}, {{paper.year}}{% if paper.doi %}, [{{paper.doi}}]({{ paper.doilink }})  {% endif %}{% endfor %}
+
+
 
 <!-- ## Presentations
 #### Talks

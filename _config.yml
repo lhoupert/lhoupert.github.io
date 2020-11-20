@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Loïc Houpert
 email: houpertloic@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Research Scientist working with Ocean and Climate Data. Interested in #openscience.
+description: Research Scientist working with Ocean and Climate Data. [#OpenScience](https://en.wikipedia.org/wiki/Open_science) supporter.
 twitter_username: LoicHoupert
 github_username: lhoupert
 minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
@@ -59,8 +58,8 @@ plugins:
 author:
   name   : "Loïc Houpert"
   avatar : "/assets/images/loic2web.jpg"
-  bio    : "Research Scientist working with Ocean and Climate Data. Interested in #openscience."
-  location  : "Southampton, UK"
+  bio    : "Research Scientist working with Ocean and Climate Data. [#OpenScience](https://en.wikipedia.org/wiki/Open_science) supporter."
+  location  : "UK"
   links:
 
     - label: "Email"
