@@ -12,6 +12,8 @@ feature_row1:
 {% include feature_row id="feature_row1" type="center" width="40%" %}
 
 
-I am a Research Scientist at the [National Oceanography Centre](https://www.noc.ac.uk/){:target="_blank"} using programming, statistics and data analysis methods to turn ocean and climate data into scientific results.
+I am a Research/Data Scientist at [OSE Engineering](http://ose-engineering.fr/){:target="_blank"} using programming, statistics and data analysis methods to develop optimised technological solutions.
 
- I am using a wide range of instruments/tools (ship, underwater robots, satellite, numerical models) to understand modern oceanographic processes and their relationships to climate variability. Currently at the National Oceanography Centre, I am interested in the role of the North Atlantic on the global ocean circulation and the European climate. I am particularly involved in [OSNAP](https://www.o-snap.org/) (Overturning in the Subpolar North Atlantic Program). I have participated in 11 hydrographic and mooring cruises in the Mediterranean Sea and in the North Atlantic.
+I hold a master in atmospheric and oceanic physics from Université Pierre et Marie Curie (Paris)  and a PhD in physical oceanography from Université de Perpignan. I also have more than 7 years of professional experience as a research data scientist working with ocean and climate data.
+
+I have always been interested in using new technologies to solve interesting data problems. Over the last 6 years, I worked at the Scottish Association for Marine Sciences (Oban, UK) and at the National Oceanography Centre (Southampton, UK) where I developed and led the data processing associated with several ocean observation programmes, such as an array of underwater buoys or repeated hydrological surveys with underwater robots.  In addition, I also developed new physical and statistical methods on these data to quantify the strength of the North Atlantic Current (the eastward extension of the Gulf Stream) in order to understand its impacts on the European and Arctic climate.

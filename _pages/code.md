@@ -13,7 +13,7 @@ gallery:
 You can browse through my current projects on [GitHub](https://github.com/lhoupert).
 
 
-I am currently working on the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/) data. You can access the code I am using to analyse and visualise the data on my [github repository](https://github.com/lhoupert/analysis_eel_data). You will find some useful bit of code to plot maps using [*cartopy*](https://scitools.org.uk/cartopy/docs/latest/) or hydrographic sections using [*matplotlib*](https://matplotlib.org/). New notebooks using the [xarray](http://xarray.pydata.org/en/stable/) package are under construction. *xarray* is a powerful tool to manipulate multi-dimensional array.
+During my previous position, I worked with the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/) data. You can access the code I used to analyse and visualise the data on my [github repository](https://github.com/lhoupert/analysis_eel_data). You will find some useful bit of code to plot maps using [*cartopy*](https://scitools.org.uk/cartopy/docs/latest/), hydrographic sections using [*matplotlib*](https://matplotlib.org/), or manipulate multi-dimensional array using [xarray](http://xarray.pydata.org/en/stable/).
 
 
 

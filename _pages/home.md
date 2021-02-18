@@ -12,7 +12,7 @@ feature_row_links:
   - image_path: assets/images/cv.png    
     alt: "placeholder image CV"
     title: CV    
-    excerpt: "I am a research Scientist working with Ocean and Climate Data."
+    excerpt: "I am interested in using new technologies to solve interesting data problems."
     url: "/cv/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
