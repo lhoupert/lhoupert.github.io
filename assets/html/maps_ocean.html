@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5ada64c31ab64ac99a73a8130cb531c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
+    
+            <style>
+                #export {
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                    z-index: 999;
+                    background: white;
+                    color: black;
+                    padding: 6px;
+                    border-radius: 4px;
+                    font-family: 'Helvetica Neue';
+                    cursor: pointer;
+                    font-size: 12px;
+                    text-decoration: none;
+                    top: 90px;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5ada64c31ab64ac99a73a8130cb531c5" ></div>
+        
+    <a href='#' id='export'>Export</a>
+</body>
+<script>    
+    
+            var map_5ada64c31ab64ac99a73a8130cb531c5 = L.map(
+                "map_5ada64c31ab64ac99a73a8130cb531c5",
+                {
+                    center: [50.0, -34.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a77d38cb3b004d2ab124b9b9789d2a2d = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Terrain_Base, sources: Esri, USGS, NOAA. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_60a06e434ebe4b7083889528d0dfe826 = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Ocean_Base, sources: Esri, GEBCO, NOAA, Garmin, HERE, and other contributors. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_f46963483a194002b1125a73ca2c089f = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Ocean_Reference, sources: Esri, HERE, Garmin, GEBCO, National Geographic, NOAA, and the GIS User Community. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_b1c99e50091c4657bf476da4a2cd884f = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Physical_Map, sources: US National Park Service. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_0d5188bf1e7047558f45aa0370de2eb9 = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Shaded_Relief, sources: (c) 2014 Esri. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_28cd04d3155d4b0e90848230855f3aae = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Topo_Map, sources: Esri, DeLorme, NAVTEQ, USGS, FAO, NPS, EPA, NRCAN, GeoBase. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_49417914432147bcaa3867ebe77890a8 = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "World_Street_Map, sources: Esri, HERE, Garmin, USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, Esri China (Hong Kong), Esri Korea, Esri (Thailand), NGCC, (c) OpenStreetMap contributors, and the GIS User Community. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var tile_layer_7cecca9325dd4254b1252fbb2098692f = L.tileLayer(
+                "http://services.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "NatGeo_World_Map, sources: National Geographic, Esri, Garmin, HERE, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, increment P Corp. ", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var mouse_position_8d2473d8f6f74b2b95f41064f8ff5cb0 = new L.Control.MousePosition(
+                {"emptyString": "NaN", "lngFirst": true, "numDigits": 20, "position": "topright", "prefix": "Coordinates:", "separator": " | "}
+            );
+            mouse_position_8d2473d8f6f74b2b95f41064f8ff5cb0.options["latFormatter"] =
+                function(num) {return L.Util.formatNum(num, 5) + ' º ';};;
+            mouse_position_8d2473d8f6f74b2b95f41064f8ff5cb0.options["lngFormatter"] =
+                function(num) {return L.Util.formatNum(num, 5) + ' º ';};;
+            map_5ada64c31ab64ac99a73a8130cb531c5.addControl(mouse_position_8d2473d8f6f74b2b95f41064f8ff5cb0);
+        
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": true, "position": "topleft", "title": "Expand me", "titleCancel": "Exit me"}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+        
+    
+            var layer_control_6b14537bfe95465e9fb2949e7c1f8ebd = {
+                base_layers : {
+                    "World_Terrain_Base" : tile_layer_a77d38cb3b004d2ab124b9b9789d2a2d,
+                    "World_Ocean_Base" : tile_layer_60a06e434ebe4b7083889528d0dfe826,
+                    "World_Physical_Map" : tile_layer_b1c99e50091c4657bf476da4a2cd884f,
+                    "World_Shaded_Relief" : tile_layer_0d5188bf1e7047558f45aa0370de2eb9,
+                    "World_Topo_Map" : tile_layer_28cd04d3155d4b0e90848230855f3aae,
+                    "World_Street_Map" : tile_layer_49417914432147bcaa3867ebe77890a8,
+                    "NatGeo_World_Map" : tile_layer_7cecca9325dd4254b1252fbb2098692f,
+                },
+                overlays :  {
+                    "World_Ocean_Reference" : tile_layer_f46963483a194002b1125a73ca2c089f,
+                },
+            };
+            L.control.layers(
+                layer_control_6b14537bfe95465e9fb2949e7c1f8ebd.base_layers,
+                layer_control_6b14537bfe95465e9fb2949e7c1f8ebd.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_5ada64c31ab64ac99a73a8130cb531c5);
+            tile_layer_60a06e434ebe4b7083889528d0dfe826.remove();
+            tile_layer_b1c99e50091c4657bf476da4a2cd884f.remove();
+            tile_layer_0d5188bf1e7047558f45aa0370de2eb9.remove();
+            tile_layer_28cd04d3155d4b0e90848230855f3aae.remove();
+            tile_layer_49417914432147bcaa3867ebe77890a8.remove();
+            tile_layer_7cecca9325dd4254b1252fbb2098692f.remove();
+        
+    
+            var tile_layer_5dff400a974e46ed8f06894c2c5ff066 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_b29b4630ffda45a8b72ee515bb3ee4f9 = new L.Control.MiniMap(
+                tile_layer_5dff400a974e46ed8f06894c2c5ff066,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 100, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 200, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_5ada64c31ab64ac99a73a8130cb531c5.addControl(mini_map_b29b4630ffda45a8b72ee515bb3ee4f9);
+        
+    
+            var options = {
+              position: "topleft",
+              draw: {},
+              edit: {},
+            }
+            // FeatureGroup is to store editable layers.
+            var drawnItems = new L.featureGroup().addTo(
+                map_5ada64c31ab64ac99a73a8130cb531c5
+            );
+            options.edit.featureGroup = drawnItems;
+            var draw_control_7e12e4673b7c4285b722aa2ee02716c4 = new L.Control.Draw(
+                options
+            ).addTo( map_5ada64c31ab64ac99a73a8130cb531c5 );
+            map_5ada64c31ab64ac99a73a8130cb531c5.on(L.Draw.Event.CREATED, function(e) {
+                var layer = e.layer,
+                    type = e.layerType;
+                var coords = JSON.stringify(layer.toGeoJSON());
+                layer.on('click', function() {
+                    alert(coords);
+                    console.log(coords);
+                });
+                drawnItems.addLayer(layer);
+             });
+            map_5ada64c31ab64ac99a73a8130cb531c5.on('draw:created', function(e) {
+                drawnItems.addLayer(e.layer);
+            });
+            
+            document.getElementById('export').onclick = function(e) {
+                var data = drawnItems.toGeoJSON();
+                var convertedData = 'text/json;charset=utf-8,'
+                    + encodeURIComponent(JSON.stringify(data));
+                document.getElementById('export').setAttribute(
+                    'href', 'data:' + convertedData
+                );
+                document.getElementById('export').setAttribute(
+                    'download', "data.geojson"
+                );
+            }
+            
+        
+</script>
