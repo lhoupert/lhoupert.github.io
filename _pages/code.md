@@ -19,7 +19,8 @@ During my previous position, I worked with the [Extended Ellett Line (EEL)](http
 {% include gallery %}
 
 The notebook [holoview/02-lh-holoview_2_gridded_section.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/holoview/02-lh-holoview_2_gridded_section.ipynb) shows how to use HoloViews and Panel to display interactive section of the EEL data.
-The interactive Holoview panel can be seen <a href="/assets/html/EEL_section_panel_double_selector_v3.html" target="_blank">[here]</a>.
+The interactive Holoview panel can be seen <a href="https://media.githubusercontent.com/media/lhoupert/lhoupert.github.io/master/assets/html/EEL_section_panel_double_selector_v3.html" target="_blank">[here]</a>.
+
 
 
 ## Folium
