@@ -18,10 +18,14 @@ During my previous position, I worked with the [Extended Ellett Line (EEL)](http
 
 {% include gallery %}
 
-The notebook [holoview/02-lh-holoview_2_gridded_section.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/holoview/02-lh-holoview_2_gridded_section.ipynb) shows how to use HoloViews and Panel to display interactive section of the EEL data.
-The interactive Holoview panel can be seen <a href="/assets/html/02_section_panel_double_selector_v3_vweb.html" target="_blank">[here]</a>.
+## HoloViz and Panel
+The notebook [holoview/02-lh-holoview_2_gridded_section.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/holoview/02-lh-holoview_2_gridded_section.ipynb) shows how to use [HoloViews](http://holoviews.org/) and [Panel](https://panel.holoviz.org/) to display an <a href="/assets/html/02_section_panel_double_selector_v3_vweb.html" target="_blank">interactive section of the EEL data</a>.
 
+<section id='holview_sec' style="background-color: white">
+  <iframe allowtransparency="true" src="/assets/html/02_section_panel_double_selector_v3_vweb.html" height="620px" width="100%" style="border:none;"></iframe>
+</section>
 
+<br>
 
 ## Folium
 
