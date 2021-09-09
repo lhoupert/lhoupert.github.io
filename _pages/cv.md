@@ -9,7 +9,7 @@ toc_icon: "file-alt"
 ---
 
 #### Employment
-+ 2021-   , Research Scientist, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
++ 2021-   , R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
 + 2019-2021, Research Scientist, *National Oceanography Centre, Southampton*
 + 2014-2018, Postdoctoral Associate, *Scottish Association for Marine Science, Oban*
 + 2013–2014, Postdoctoral Associate, *LOCEAN, Paris*
