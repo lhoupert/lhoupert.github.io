@@ -10,9 +10,9 @@ toc_icon: "file-alt"
 
 #### Employment
 + 2021-   , R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
-+ 2019-2021, Research Scientist, *National Oceanography Centre, Southampton*
-+ 2014-2018, Postdoctoral Associate, *Scottish Association for Marine Science, Oban*
-+ 2013–2014, Postdoctoral Associate, *LOCEAN, Paris*
++ 2019-2021, Research Scientist, *[National Oceanography Centre](https://noc.ac.uk/), Southampton*
++ 2014-2018, Postdoctoral Associate, *[Scottish Association for Marine Science](https://www.sams.ac.uk/), Oban*
++ 2013–2014, Postdoctoral Associate, *[LOCEAN](https://www.locean-ipsl.upmc.fr), Paris*
 
 <br/>
 
@@ -20,6 +20,22 @@ toc_icon: "file-alt"
 + 2010–2013, PhD Fellow in Oceanography, *CNRS, Perpignan*
 + 2008–2010, MSc, Atmospheric and Oceanic Physics, *Université Pierre et Marie Curie, Paris*
 + 2005-2008, BSc, Maths-Physics-Chemistry, *Université de Strasbourg*
+
+<br/>
+
+#### Technologies and Languages
+##### Python
+NumPy, Pandas, Xarray, Matplotlib, Holoviews, scikit-learn, networkx, sphinx, Django
+##### Other Languages
+Shell, HTML, CSS, JavaScript, MATLAB, Markdown, LATEX, SQL
+##### Technologies
+Docker, Git, Jupyter,  jupyter-book, gitlab-ci, Django, Websocket, WebRTC
+##### Analytical Skills
+  + Statistics: Covariance, Cross-correlation, Confidence intervals, Monte Carlo methods
+  + Time-series: Spectral & Wavelett analysis, auto-correlation, detection of patterns & trends
+  + Spatial: Geostatistics, Kriging, Objective Analysis
+  + Supervised and Unsupervised Learning: Classification, Regression, Clustering
+
 
 <br/>
 
@@ -38,18 +54,6 @@ toc_icon: "file-alt"
   + Inter-disciplinary and international scientific collaborations with physicists, chemists, biologists, geologists, statisticians from UK, US, Netherlands, France, Germany and China
   + Close collaborations with scientists, technicians, IT-experts and mariners. particularly during research cruises
 
-<br/>
-
-#### Science and Technical Skills
-##### Analytical
-  + Statistics: Covariance, Cross-correlation, Confidence intervals, Monte Carlo methods
-  + Time-series: Spectral & Wavelett analysis, auto-correlation, detection of patterns & trends
-  + Spatial: Geostatistics, Kriging, Objective Analysis
-  + Supervised and Unsupervised Learning: Classification, Regression, Clustering
-
-##### Coding
-  + **MATLAB**, **Python** (NumPy, SciPy, Pandas, Scikit-learn), Git, Shell
-  + Familiar with: SQL, HTML, CSS, JavaScript, PHP, C, Fortran
 
 <br/>
 #### Fieldwork
