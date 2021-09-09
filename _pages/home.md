@@ -5,14 +5,14 @@ permalink: /
 header:
   overlay_color: "#00000" #"#581845"
   overlay_image: /assets/images/capcreus.jpg
-excerpt: " <br/>  Research / Data Scientist <br/> <br/> <br/>  <br/>"
+excerpt: " <br/>Data Scientist & Software Developer <br/> <br/> <br/>  <br/>"
 intro:
   - excerpt: ' '
 feature_row_links:
   - image_path: assets/images/cv.png    
     alt: "placeholder image CV"
     title: CV    
-    excerpt: "I am interested in using new technologies to solve interesting data problems."
+    excerpt: "I am interested in using new technologies to solve interesting problems."
     url: "/cv/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
