@@ -8,7 +8,7 @@ gallery:
   - image_path: /assets/images/fig22.png
 ---
 
-*This section is under development...*
+*This section is mostly about data projects related to my previous academic positions ...*
 
 You can browse through my current projects on [GitHub](https://github.com/lhoupert).
 

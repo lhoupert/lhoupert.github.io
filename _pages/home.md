@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#00000" #"#581845"
   overlay_image: /assets/images/capcreus.jpg
-excerpt: " <br/>Data Scientist & Software Developer <br/> <br/> <br/>  <br/>"
+excerpt: " <br/>Software Engineer and Scientist <br/> <br/> <br/>  <br/>"
 intro:
   - excerpt: ' '
 feature_row_links:
@@ -19,7 +19,7 @@ feature_row_links:
   - image_path:  /assets/images/Uni-ico.svg.png
     alt: "placeholder image uni"
     title: Publications
-    excerpt: "Have a look to the list of my preprint and peer-reviewed articles."    
+    excerpt: "Have a look to the list of my peer-reviewed articles and talks."    
     url: "/pubs/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
