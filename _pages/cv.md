@@ -9,7 +9,11 @@ toc_icon: "file-alt"
 ---
 
 #### Employment
-##### 2021-&nbsp;&nbsp;&nbsp;&nbsp;, R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
+
+##### 2022-&nbsp;&nbsp;&nbsp;&nbsp;, Software Engineer, *[Department for Work and Pensions Digital](http://ose-engineering.fr/](https://dwpdigital.blog.gov.uk/about/){:target="_blank"}, Newcastle*
++ Develop Robotic Process Automation and cloud-based products
++ Work as part of an agile delivery team of Project Managers, Architects, Business Analysts, Software Engineers, RPA Engineers, DevOps Engineers, and Test Engineers.
+##### 2021-2022, R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
 + Lead the development of the front-end (JavaScript) and back-end (Django) of a Web application to manage a fleet of delivery robots. 
 Some of the functionalities include: 1) mission design using cytoscape.js, 2) control the robot using WebSocket, 3) remote control 
 using joystick and data/video streaming using WebRTC.
