@@ -14,14 +14,14 @@ toc_icon: "file-alt"
 + Develop Robotic Process Automation and cloud-based products
 + Work as part of an agile delivery team of Project Managers, Architects, Business Analysts, Software Engineers, RPA Engineers, DevOps Engineers, and Test Engineers.
 
+
 ##### 2021-2022, R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
 + Lead the development of the front-end (JavaScript) and back-end (Django) of a Web application to manage a fleet of delivery robots. 
 Some of the functionalities include: 1) mission design using cytoscape.js, 2) control the robot using WebSocket, 3) remote control 
 using joystick and data/video streaming using WebRTC.
 + Develop a python package (source code, docs, example notebooks) to solve the electric vehicle routing problem using a
 Dijkstra's algorithm and interactive maps visualisation using Folium/Leaflet.js
-+ Initiate a guide for python software development best practices internal to the company. The guide covers topics such as 
-how to structure a python project, writing meaningful code, documentation, testing strategy, or continuous integration.
++ Initiate a guide for python software development best practices internal to the company. The guide covers topics such as how to structure a python project, writing meaningful code, documentation, testing strategy, or continuous integration.
 
 ##### 2019-2021, Research Scientist, *[National Oceanography Centre](https://noc.ac.uk/){:target="_blank"}, Southampton*
 Analysis of multiple ocean & atmosphere datasets (structured and unstructured) to characterise the physical processes 
