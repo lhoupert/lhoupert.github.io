@@ -26,4 +26,4 @@ In 2021, I started working at [OSE Engineering](http://ose-engineering.fr/){:tar
 I worked on several python libraries and full-stack development projects. For these prototype projects, I have been the main developer responsible 
 for the maintenance of the git repository, structuring of the source code, writing the documentation, and generating tutorials.
 
-In November 2022 I joined  the [Department for Work and Pensions - Digital](https://dwpdigital.blog.gov.uk/about/){:target="_blank"} as a Software Engineer. I am working on developping cloud-based Robotic Process Automation.
+In November 2022, I joined  the [Department for Work and Pensions - Digital](https://dwpdigital.blog.gov.uk/about/){:target="_blank"} as a Software Engineer. I am working on developping cloud-based Robotic Process Automation.
