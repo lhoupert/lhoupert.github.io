@@ -24,10 +24,10 @@ feature_row_links:
     btn_label: "Learn more"
     btn_class: "btn--primary"
   - image_path: /assets/images/code.png
-    alt: "placeholder image code"
-    title: Code
-    excerpt: "Have a look to my projects."        
-    url: "/code/"
+    alt: "placeholder image about"
+    title: About Me
+    excerpt: "A Short Bio"        
+    url: "/about/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
 ---
