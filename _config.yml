@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Loïc Houpert"
   avatar : "/assets/images/loic2web.jpg"
-  bio    : "Software Engineer, Scientist and [#OpenScience](https://en.wikipedia.org/wiki/Open_science) supporter."
+  bio    : "1x Software Engineer and Scientist."
   location  : "UK"
   links:
 
@@ -85,7 +85,7 @@ author:
       url: "https://www.researchgate.net/profile/Loic_Houpert"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lo%C3%AFc-houpert-29232037/?locale=en_US"
+      url: "https://www.linkedin.com/in/lo%C3%AFc-h-29232037/"
 
 
 footer:
@@ -110,7 +110,7 @@ footer:
       url: "https://www.researchgate.net/profile/Loic_Houpert"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lo%C3%AFc-houpert-29232037/?locale=en_US"
+      url: "https://www.linkedin.com/in/lo%C3%AFc-h-29232037/"
 
 
 defaults:
