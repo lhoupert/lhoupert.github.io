@@ -10,9 +10,18 @@ toc_icon: "file-alt"
 
 #### Employment
 
-##### 2022-&nbsp;&nbsp;&nbsp;&nbsp;, Software Engineer, *[Department for Work and Pensions - Digital](https://dwpdigital.blog.gov.uk/about/){:target="_blank"}, Newcastle*
-+ Develop Robotic Process Automation and cloud-based products
-+ Work as part of an agile delivery team of Project Managers, Architects, Business Analysts, Software Engineers, RPA Engineers, DevOps Engineers, and Test Engineers.
+##### 2022-2023, Senior Cyber Platform Engineer, *[Department for Work and Pensions - Digital](https://dwpdigital.blog.gov.uk/about/){:target="_blank"}, Newcastle*
+
++ Engineering Cloud Native Data Science platforms at the Cyber Resilience Centre
+
+
+##### 2022-2023, Software Engineer, *[Department for Work and Pensions - Digital](https://dwpdigital.blog.gov.uk/about/){:target="_blank"}, Newcastle*
+
++ Develop a cloud-based software as part of an Agile team to get insights from the multiple handwritten letters sent to DWP services. I contributed to the development of the AI component of the solution by building a test dataset and optimizing the labels and thresholds used by our zero shot classification model (https://huggingface.co/facebook/bart-large-mnli). I also supported the team in deploying the solution on Sagemaker using AWS Cloud Development Toolkit.
+
++ Develop serverless services (AWS lambda function) with AWS CDK using Python and TypeScript
+
++ Implement Python coding standards in the team and enforce them in CI/CD pipelines- Develop a cloud-based software as part of an Agile team to get insights from the multiple handwritten letters sent to DWP services. I contributed to the development of the AI component of the solution by building a test dataset and optimizing the labels and thresholds used by our zero shot classification model (https://huggingface.co/facebook/bart-large-mnli). I also supported the team in deploying the solution on Sagemaker using AWS Cloud Development Toolkit. - Develop serverless services (AWS lambda function) with AWS CDK using Python and TypeScript - Implement Python coding standards in the team and enforce them in CI/CD pipelines
 
 
 ##### 2021-2022, R&D Software Developer, *[OSE Engineering](http://ose-engineering.fr/){:target="_blank"}, France*
