@@ -112,14 +112,22 @@ on the ocean circulation and the long-term evolution of its properties
 <br/>
 
 
-#### Experience in Software Development
-+ regular (and efficient) communication with co-worker and customers
-+ good understanding of the project requirements, and if necessary, helping the customer formulate what he/she wants
-+ project management: project planning, prioritizing requirements, and breaking user stories in tasks
-+ follow best practices for structuring, designing, and documenting a software project
-+ automation: code linter/formatter, source control, testing, and continuous integration pipelines.
+
+#### Technologies and Languages
+##### Python Libraries
+NumPy, Pandas, Xarray, Matplotlib, Holoviews, scikit-learn, networkx, Django, sphinx, pytest, pip
+##### Technologies
+Linux, Terraform, Docker, AWS, ECS, Git, gitlab-CI, AWS CDK, Jupyter, Websocket, WebRTC
+##### Other Languages
+TypeScript/JavaScript, Shell, HTML, CSS, MATLAB, Markdown, LATEX, SQL
+##### Analytical Skills
+  + Statistics: Covariance, Cross-correlation, Confidence intervals, Monte Carlo methods
+  + Time-series: Spectral & Wavelett analysis, auto-correlation, detection of patterns & trends
+  + Spatial: Geostatistics, Kriging, Objective Analysis
+  + Supervised and Unsupervised Learning: Classification, Regression, Clustering
+
   
-#### Experience in Python
+#### Experience with Python
 I mostly use Python as a procedural programming and objected-oriented programming language. I love learning new python patterns 
 and write “pythonic” code. For example, when it is suited, I like using assertions, decorators, _args_ and _*kwargs_ parameters, 
 NamedTuples and Data Classes, ABC Classes, dictionary, list comprehensions, or generator expressions.
@@ -132,21 +140,6 @@ classes and modules developed in the project. Then I use [Sphinx](https://www.sp
 a well-structured and easily readable HTML documentation.
 
 I like to use the [Pytest](https://docs.pytest.org){:target="_blank"} framework for my unit and functional tests.
-
-
-#### Technologies and Languages
-##### Python Libraries
-NumPy, Pandas, scipy, Xarray, Matplotlib, Holoviews, scikit-learn, networkx, sphinx, Django, argparse, pytest
-##### Technologies
-Containerization (Docker, docker-compose), source control (Git), Continuous Integration (gitlab-ci), Django, Websocket, WebRTC
-##### Other Languages
-JavaScript, Shell, HTML, CSS,  MATLAB, Markdown, LATEX, SQL
-##### Analytical Skills
-  + Statistics: Covariance, Cross-correlation, Confidence intervals, Monte Carlo methods
-  + Time-series: Spectral & Wavelett analysis, auto-correlation, detection of patterns & trends
-  + Spatial: Geostatistics, Kriging, Objective Analysis
-  + Supervised and Unsupervised Learning: Classification, Regression, Clustering
-
 
 <br/>
 
