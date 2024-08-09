@@ -104,6 +104,12 @@ on the ocean circulation and the long-term evolution of its properties
 
 <br/>
 
+#### Certifications
++ 2024, [GIAC Cloud Security Automation Certification (GCSA)](https://www.credly.com/badges/3932cedd-793a-4103-a00f-3be346e8fd8d)
+
+
+<br/>
+
 #### Education
 + 2010–2013, PhD in Ocean Physics, *CNRS, Perpignan*
 + 2008–2010, MSc, Atmospheric and Oceanic Physics, *Université Pierre et Marie Curie, Paris*
