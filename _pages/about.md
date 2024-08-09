@@ -11,9 +11,9 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="center" width="40%" %}
 
-I am a [1x software engineer](https://1x.engineer/) who loves working on real-world problems to help people. 
+I am a [1x software engineer](https://1x.engineer/) with experience in back-end software development and infrastructure management, who thrives in solving problems and creating capabilities for my team and my organisation. I strongly believe in automation and improving team ways of working to deliver better, and more effectively.
 
-I have worked with various stacks (Python, Javascript, Typescript, PostgreSQL, Docker, Gitlab CI/CD, AWS), but the people I work with and the problem I tackle are more important to me than a specific stack.
+I have worked with various technologies (Python, Docker, AWS, Terraform, Gitlab CI/CD, Typescript/JavaScript, PostgreSQL), but the people I work with and the problem I tackle are more important to me than a specific technology.
 
 I started my career working 10 years as a research scientist 🧑🔬 where I developed methods to turn raw climate data into meaningful scientific information.
 
