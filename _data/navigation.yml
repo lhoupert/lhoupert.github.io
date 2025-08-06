@@ -1,9 +1,0 @@
-main:
-  - title: "About"
-    url: /about/
-  - title: "CV"
-    url: /cv/
-  - title: "Publications"
-    url: /pubs/
-  - title: "Code"
-    url: /code/
