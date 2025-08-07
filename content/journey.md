@@ -1,5 +1,5 @@
 ---
-title: "My Tech Journey"
+title: "From Ocean Depths to Cloud Heights"
 date: 2025-07-02
 layout: simple
 ---
@@ -134,7 +134,7 @@ Individual Brilliance × Platform Leverage = Organizational Capability
 <div class="journey-footer">
 
 **🌊 → 💻 → 🚀**  
-*From analyzing ocean depths to architecting cloud heights,  
+*From analyzing ocean currents to building team-enabling systems,  
 the journey continues...*
 
 </div>

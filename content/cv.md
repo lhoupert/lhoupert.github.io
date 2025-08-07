@@ -1,5 +1,5 @@
 ---
-title: "My Tech Journey"
+title: "My Professional Journey"
 date: 2025-07-02
 layout: simple
 ---
@@ -21,7 +21,7 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 - Building Terraform modules to enable multi-user application deployment
 - Learning to mentor engineering teams through pair programming and knowledge sharing
 
-*Key learning*: Transitioning from individual contributor to platform enabler, focusing on team productivity and organizational capability building.
+*Key learning:*  Transitioning from individual contributor to platform enabler, focusing on team productivity and organizational capability building.
 
 ---
 
@@ -34,7 +34,8 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 - Helped establish Python coding standards across development teams
 - First exposure to regulated environment development and compliance requirements
 
-*Key learning*: Understanding how technical excellence intersects with public service and regulatory compliance.
+*Key learning:*
+Understanding how technical excellence intersects with public service and regulatory compliance.
 
 ---
 
@@ -42,12 +43,12 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 *OSE Engineering | France*
 
 **The Industry Pivot**
-- Built full-stack applications for delivery robot fleet management
+- Built prototype of full-stack application for delivery robot fleet management
 - Developed Python packages for vehicle routing optimization
 - Created development best practice guides
 - Implemented WebSocket/WebRTC real-time communication systems
 
-*Critical transition*: From academic research to commercial software development, learning agile methodologies and product-focused engineering.
+*Critical transition:* From academic research to commercial software development, learning agile methodologies and product-focused engineering.
 
 ---
 
@@ -60,7 +61,7 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 - Participated in international collaborative research programmes
 - Helped train PhD students and research staff in computational methodologies
 
-*Foundation building*: Learning systematic data analysis and reproducible computational workflows.
+*Foundation building:* Learning systematic data analysis and reproducible computational workflows.
 
 ---
 
@@ -69,11 +70,11 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 
 **The Systems Thinking Development**
 - Designed reproducible data processing workflows for robotic ocean observations
-- Participated in 12 oceanographic research cruises (200+ days at sea)
+- Co-lead 5 oceanographic research cruises (200+ days at sea)
 - Developed MATLAB toolboxes for oceanographic data analysis
 - Managed multi-platform observational programmes
 
-*Core skills emergence*: Project leadership, system design thinking, and collaborative problem-solving.
+*Core skills development:* Project leadership, system design thinking, and collaborative problem-solving.
 
 ---
 
@@ -85,7 +86,8 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 - Published research in scientific journals
 - Built expertise in statistical analysis and data quality control
 - Learned systematic methodology and rigorous documentation
+- Participated in 6 oceanographic research cruises
 
-*Academic grounding*: Scientific rigor, systematic thinking, and collaborative research methodologies.
+*Academic grounding:* Scientific rigor, systematic thinking, and collaborative research methodologies.
 
 </div>
