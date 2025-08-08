@@ -35,7 +35,7 @@ When I reflect on my career path, it feels less like a straight line and more li
 
 ### 🐍 **Python Development Experience**
 
-Python became my main language almost by accident - I needed better tools for analyzing massive oceanographic datasets, and Python's scientific ecosystem was irresistible. What started as data wrangling gradually expanded into web applications, cloud automation, and now platform engineering. I've found that each domain taught me something different about writing maintainable, reliable code.
+I transitioned to Python as my primary language in 2020 after extensive work with MATLAB in research. What began as exploratory data analysis for oceanographic datasets has evolved into building production Flask applications, maintaining reusable Python packages and implementing comprehensive testing frameworks. I've found that each domain I worked in taught me something different about writing maintainable, reliable code.
 
 #### **Core Development**
 - **Language Experience**: 5+ years, procedural, OOP
@@ -113,11 +113,11 @@ Container security emerged as a natural extension of my infrastructure work when
 
 ### 🎯 **Core Competencies**
 
-The diagram below shows how I understand my professional development, with **Problem Solving** as the driving force - that curiosity about "how can we make this work better?" that excites me in any role, from analyzing ocean currents to building container platforms.
+The diagram below shows how I understand my professional development, with **Problem Solving** as "the driving force". 
 
-The three branches reflect my career evolution: **Scientific Thinking** from research years where you learn to be systematic and question everything, **Engineering Practices** developed transitioning to software development, and **Team Leadership** emerging as I found sharing knowledge often more impactful than individual work. These areas reinforce each other - my research background helps me approach infrastructure methodically, engineering experience makes me a better mentor, and team work drives more systematic thinking.
+The three branches reflect my career evolution: **Scientific Thinking** from research years where you learn to be systematic and question everything, **Engineering Practices** developed transitioning to software development, and **Team Leadership** emerging as I found sharing knowledge often more impactful than individual work. These areas reinforce each other: my research background helps me approach infrastructure methodically, engineering experience makes me a better mentor, and team work drives more systematic thinking.
 
-The **Continuous Learning** foundation feels essential - every role change, technology, or colleague conversation adds to this framework. It's how I approach growth: staying curious, building on what I know, and helping others grow too.
+The **Continuous Learning** foundation feels essential: every role change, technology, or colleague conversation adds to this framework. It's how I approach growth: staying curious, building on what I know, and helping others grow too.
 
 <div class="career-architecture">
 

@@ -15,11 +15,12 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 ### 🚀 **Senior Cyber Platform Engineer** `2023 → Present`
 *Department for Work and Pensions - Digital | Remote, UK*
 
-**The Platform Learning Era**
-- Contributing to container platform development serving 20+ internal users
-- Working on zero-CVE container solutions to reduce vulnerabilities
-- Building Terraform modules to enable multi-user application deployment
-- Learning to mentor engineering teams through pair programming and knowledge sharing
+**Platform Leadership & Security Excellence**
+- Co-architecting a container platform serving Cyber Data Scientists and Analysts
+- Achieved zero-CVE baseline through migration to Chainguard minimal containers
+- Reduced deployment frequency from monthly to weekly through CI/CD automation
+- Increased application test coverage from 10% to 85% using comprehensive testing strategies
+- Leading team of 2 junior engineers through pair programming and knowledge sharing
 
 *Key learning:*  Transitioning from individual contributor to platform enabler, focusing on team productivity and organizational capability building.
 

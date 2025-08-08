@@ -4,7 +4,7 @@ date: 2025-06-15
 layout: article
 ---
 
-I am a platform engineer with experience in cloud infrastructure and container platform development, who thrives in solving problems and creating capabilities for my team and organisation. I strongly believe in automation, security-first approaches, and improving team ways of working to deliver better software more effectively.
+I am a software engineer with experience in cloud infrastructure and container platform development, who thrives in solving problems and creating capabilities for my team and organisation. I strongly believe in automation, security-first approaches, and improving team ways of working to deliver better software more effectively.
 
 I have worked with various technologies (Python, Docker, AWS, Terraform, GitLab CI/CD, container security), but the people I work with and the problems I tackle are more important to me than any specific technology.
 

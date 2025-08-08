@@ -15,8 +15,8 @@ title = "Loïc Houpert"
 [params.author]
   name = "Loïc Houpert"
   image = "img/loic2web.jpg"
-  headline = "Senior Software Engineer specializing in cloud infrastructure,<br>containerized applications, and DevOps automation"
-  bio = "I'm a platform engineer who believes in automation, security-by-design, and empowering teams through better tooling."
+  headline = "Senior Software Engineer building secure cloud infrastructure <br> and empowering data science teams through DevOps automation"
+ # bio = "I'm a platform engineer who believes in automation, security-by-design, and empowering teams through better tooling."
   links = [
      { linkedin = "https://www.linkedin.com/in/lo%C3%AFc-h-29232037/" },
      { github = "https://github.com/lhoupert" },
