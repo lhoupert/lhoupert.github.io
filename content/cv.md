@@ -1,6 +1,6 @@
 ---
 title: "My Professional Journey"
-date: 2025-07-02
+date: 2025-06-02
 layout: simple
 ---
 
