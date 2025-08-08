@@ -123,9 +123,8 @@ The **Continuous Learning** foundation feels essential: every role change, techn
 
 ```
                      ┌─────────────────┐
-                     │  PROBLEM        │
-                     │  SOLVING        │
-                     │  (Core Engine)  │
+                     │     PROBLEM     │
+                     │     SOLVING     │
                      └─────────────────┘
                               │
          ┌────────────────────┼────────────────────┐
