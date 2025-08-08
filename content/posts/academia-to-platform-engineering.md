@@ -1,8 +1,9 @@
 ---
 title: "From Ocean Data to Cloud Platforms: A Technical Career Evolution"
-date: 2025-02-15
+date: 2025-08-09
 tags: ["career", "platform-engineering", "data-science"]
 summary: "Reflections on transitioning from marine physics research to modern platform engineering"
+draft: true
 ---
 
 

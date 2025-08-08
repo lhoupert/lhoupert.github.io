@@ -1,8 +1,9 @@
 ---
 title: "CAnDL Platform"
-date: 2024-01-15
+date: 2025-08-01
 tags: ["aws", "terraform", "containers", "ai-ml"]
 summary: "Multi-user AI platform with RAG capabilities, serving internal data science teams"
+draft: true
 ---
 
 ## Project Overview
