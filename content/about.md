@@ -14,7 +14,7 @@ I have a strong interest in data systems, cloud-native technologies, and AI plat
 
 ## A bit more about me
 
-I hold a Master of Science in Ocean and Atmosphere Physics from La Sorbonne Universoty in Paris and a PhD in Physical Oceanography from Université de Perpignan Via Domitia (France)
+I hold a Master of Science in Ocean and Atmosphere Physics from La Sorbonne University in Paris and a PhD in Physical Oceanography from Université de Perpignan Via Domitia (France)
 
 I have always been interested in using technology to solve interesting data problems. After completing my PhD and a postdoctoral experience at CNRS and LOCEAN in Paris, I moved to Scotland where I worked at the Scottish Association for Marine Science in Oban as a research scientist for 4 years. Then I moved to England, working at the National Oceanography Centre in Southampton UK. In my research, I developed and managed data processing workflows for ocean observation programmes, including underwater buoy arrays and underwater glider surveys. I also developed statistical methods to quantify ocean current strength and understand climate impacts.
 
