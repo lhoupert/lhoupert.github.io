@@ -28,12 +28,4 @@ In November 2022, I joined the Department for Work and Pensions - Digital as a S
 
 
 
-## Technical Philosophy
-
-My approach tries to combine scientific rigor with pragmatic engineering:
-
-- **Systematic Analysis**: Applying research-trained approaches to break down complex problems
-- **Documentation-First**: Writing comprehensive technical documentation, inspired by scientific publishing practices
-- **Iterative Improvement**: Using hypothesis-driven development and evidence-based optimization
-- **Collaborative Learning**: Drawing from international research experience to support engineering teams
 
