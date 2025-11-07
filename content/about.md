@@ -4,15 +4,15 @@ date: 2025-06-01
 layout: article
 ---
 
-I am a software engineer with experience in cloud infrastructure and container platform development, who thrives in solving problems and creating capabilities for my team and organisation. I strongly believe in automation, security-first approaches, and improving team ways of working to deliver better software more effectively.
+I am a cloud engineer specializing in AWS infrastructure and DevOps automation. I design and build scalable cloud platforms using infrastructure-as-code, containerization, and CI/CD pipelines. My work focuses on enabling teams to deploy applications securely and efficiently while maintaining high operational standards.
 
-I have worked with various technologies (Python, Docker, AWS, Terraform, GitLab CI/CD, container security), but the people I work with and the problems I tackle are more important to me than any specific technology.
+I have hands-on experience with AWS services (ECS, Lambda, S3, VPC), Terraform for infrastructure management, Docker for containerization, and GitLab CI/CD for automation. I'm passionate about open source, security best practices, and helping teams adopt cloud-native approaches.
 
-I started my career working 10 years as a research scientist 🧑‍🔬 where I developed methods to turn raw oceanographic data into meaningful scientific insights, spending 200+ days at sea conducting research.
-
-I have a strong interest in data systems, cloud-native technologies, and AI platforms. I am skilled in problem-solving, systematic analysis, and I love working with open source tools, learning new technologies, and continuously improving my software engineering craft.
+Before transitioning to cloud engineering, I spent 10 years as a research scientist 🧑‍🔬 developing data processing systems and computational workflows, which gave me strong foundations in systematic problem-solving and data pipeline design.
 
 ## A bit more about me
+
+My technical journey started in scientific computing where I built data processing pipelines for large-scale oceanographic datasets. This experience taught me the importance of reproducible workflows, systematic documentation, and robust data systems—all of which translate directly to cloud infrastructure work.
 
 I hold a Master of Science in Ocean and Atmosphere Physics from La Sorbonne University in Paris and a PhD in Physical Oceanography from Université de Perpignan Via Domitia (France)
 
