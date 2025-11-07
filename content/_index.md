@@ -5,9 +5,9 @@ layout: "profile"
 
 
 <br>
-I'm a software engineer who believes in automation, quality, security-by-design, and empowering teams through better tooling. 
+I'm a cloud engineer specializing in AWS infrastructure, containerization, and DevOps automation. 
 
-I currently build secure cloud-native systems on AWS at the intersection of cybersecurity and data science, while leading platform engineering initiatives.
+I build secure, scalable cloud platforms and CI/CD pipelines that enable teams to deploy and manage applications efficiently. Currently focused on infrastructure-as-code, container orchestration, and helping organizations adopt cloud-native practices.
 
 <!-- 
 <br>
