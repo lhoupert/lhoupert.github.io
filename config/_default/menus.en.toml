@@ -15,7 +15,7 @@
  [[main]]
   name = "About"
   pageRef = "about"
-  weight = 9
+  weight = 5
 
 
  [[main]]
@@ -33,10 +33,10 @@
 #   pageRef = "projects"
 #   weight = 10
 
-# [[main]]
-#   name = "Blog"
-#   pageRef = "posts"
-#   weight = 20
+ [[main]]
+   name = "Blog"
+   pageRef = "posts"
+   weight = 6
 
 # [[main]]
 #   name = "Tags"
