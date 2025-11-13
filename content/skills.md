@@ -1,33 +1,33 @@
 ---
 title: "My Technical Evolution"
-date: 2025-06-15
+date: 2025-11-12
 layout: page
 ---
 
 ## 📈 Skills Development Journey
 
-When I reflect on my career path, it feels less like a straight line and more like stepping stones across different domains. Each phase built upon the previous one, though I certainly didn't plan it this way from the beginning. What started as curiosity about ocean currents somehow led me to container orchestration - and looking back, the connections make more sense than they did at the time.
+When I reflect on my career path, it feels less like a straight line and more like stepping stones across different domains. Each phase built upon the previous one, though I certainly didn't plan it this way from the beginning. What started as curiosity about ocean currents somehow led me to building geospatial data infrastructure!
 
 <div class="career-architecture">
 
 ```
-    🌊 RESEARCH ERA           🔄 TRANSITION        🚀 PLATFORM ERA
-      (2010 → 2021)           (2021 → 2023)        (2023 → Present)
+    🌊 RESEARCH ERA           🔄 TRANSITION        🚀 CLOUD ERA           🌍 GEOSPATIAL ERA
+      (2010 → 2021)           (2021 → 2023)        (2023 → 2025)          (2025 → Present)
                                   
-  ┌─────────────────┐     ┌────────────────┐    ┌─────────────────┐
-  │                 │     │                │    │                 │
-  │     RESEARCH    │ ──▶ │   ENGINEERING  │ ──▶│    PLATFORMS    │
-  │                 │     │                │    │                 │
-  │  • Ocean Data   │     │  • Full Stack  │    │  • Security     │
-  │  • Statistics   │     │  • Cloud APIs  │    │  • Containers   │
-  │  • Scientific   │     │  • Web Tech    │    │  • Team Growth  │
-  │     Writing     │     │  • Automation  │    │  • End Users    │     
-  │                 │     │                │    │                 │
-  └─────────────────┘     └────────────────┘    └─────────────────┘
-           │                       │                       │
-           ▼                       ▼                       ▼
-📊 Scientific Computing   🌐 Web Development      🏗️ Infrastructure 
-   & Data Engineering          & DevOps               & Teams 👥
+  ┌─────────────────┐     ┌────────────────┐    ┌─────────────────┐    ┌──────────────────┐
+  │                 │     │                │    │                 │    │                  │
+  │     RESEARCH    │ --> │   ENGINEERING  │ -->│    PLATFORMS    │ -->│  EARTH OBS DATA  │
+  │                 │     │                │    │                 │    │                  │
+  │  • Ocean Data   │     │  • Full Stack  │    │  • Security     │    │  • Geospatial    │
+  │  • Statistics   │     │  • Cloud APIs  │    │  • Containers   │    │  • STAC/Zarr     │
+  │  • Scientific   │     │  • Web Tech    │    │  • Team Growth  │    │  • Data Pipelines│
+  │     Writing     │     │  • Automation  │    │  • End Users    │    │  • Open Science  │
+  │                 │     │                │    │                 │    │                  │
+  └─────────────────┘     └────────────────┘    └─────────────────┘    └──────────────────┘
+           │                       │                       │                       │
+           ▼                       ▼                       ▼                       ▼
+📊 Scientific Computing   🌐 Web Development      🏗️ Infrastructure        🛰️ Earth Observation
+   & Data Engineering          & DevOps               & Teams 👥              Infrastructure
 ```
 
 </div>
@@ -40,11 +40,13 @@ I transitioned to Python as my primary language in 2020 after extensive work wit
 ### Core Development
 - **Language Experience**: 5+ years, procedural, OOP
 - **Modern Tooling**: `uv`, `ruff`, `pytest`, pre-commit hooks
-- **Web Frameworks**: Flask, Django
+- **Web Frameworks**: Flask, Django, FastAPI
 
 ### Data & Scientific Computing
-- **Analysis Stack**: NumPy, Pandas, Xarray (large datasets)
-- **Visualization**: Matplotlib, Plotly, Cartopy (geospatial)
+<!-- - **Geospatial Stack**: Rasterio, GDAL, PyProj, GeoPandas, Shapely
+- **Data Formats**: STAC, Zarr, Cloud-Optimized GeoTIFFs (COGs), NetCDF, HDF5 -->
+- **Analysis Stack**: NumPy, Pandas, Xarray
+- **Visualization**: Matplotlib, Plotly, Cartopy (geospatial), Folium
 - **ML/Stats**: scikit-learn, statistical modeling, Monte Carlo methods
 
 ### Infrastructure Integration
@@ -53,6 +55,21 @@ I transitioned to Python as my primary language in 2020 after extensive work wit
 - **Testing**: pytest, integration testing, mocking strategies
 
 <br>
+
+<!--
+## 🗺️ Geospatial Data Engineering
+
+My decade working with oceanographic observations—processing data from underwater sensors, research vessels, and satellite altimetry—provided deep experience with large-scale scientific data workflows. This background translates directly to Earth observation infrastructure: both domains require robust data pipelines, quality control procedures, systematic metadata management, and cloud-optimized data formats.
+
+| Domain | Experience & Approaches | Current Applications |
+|--------|------------------------|---------------------|
+| **Data Formats** | NetCDF, HDF5, GRIB → STAC, Zarr, COGs | Cloud-optimized geospatial formats |
+| **Processing** | Time-series analysis, quality control, uncertainty quantification | Earth observation data pipelines |
+| **Scale** | Datasets >200k observations, multi-platform integration | Terabyte-scale satellite imagery |
+| **Metadata** | CF conventions, standardized vocabularies | STAC catalogs, searchable metadata |
+
+<br>
+-->
 
 ## 🔄 DevOps & Automation Experience
 
@@ -140,7 +157,29 @@ In my role at DWP, I lead a team of 2 young engineers while supporting broader o
 - Introduced code quality metrics that teams actually find helpful
 - Created bug report templates that streamline problem-solving
 
+<!--
+### Leadership Experience
 
+Throughout my career, I've had opportunities to mentor and support team members:
+
+**Current Practice (Development Seed)**
+- Contributing to collaborative engineering culture in distributed teams
+- Sharing knowledge about geospatial data processing and cloud infrastructure
+- Supporting open-source community participation
+
+**Previous Leadership (DWP)**
+- Led team of 2 junior engineers through pair programming and knowledge sharing
+- Regular debugging sessions that became teaching moments
+- Developed comprehensive onboarding guides reducing setup time from days to hours
+- Created reusable Terraform modules and Docker templates encoding best practices
+- Built testing strategies achieving 85% coverage implementation
+- Implemented pre-commit hooks and CI/CD standards balancing guidance with flexibility
+
+**Research Experience**
+- Trained PhD students and research staff in computational methodologies
+- Co-led oceanographic field campaigns coordinating 10+ team members
+- Mentored early-career scientists in data analysis techniques
+-->
 
 ### Some Reflections on Technical Leadership
 
@@ -158,9 +197,10 @@ In my role at DWP, I lead a team of 2 young engineers while supporting broader o
 
 ### Current Focus Areas
 
-- **Cognitive Load Reduction**: Actively working to reduce the mental overhead for developers through better tooling and clearer abstractions
-- **Sustainable Pace**: Advocating for realistic timelines and technical debt management
-- **Cross-Team Collaboration**: Building bridges between platform, security, and data science teams through shared understanding and common tools
+- **Knowledge Sharing**: Contributing to documentation and learning resources for geospatial data engineering
+- **Open Source Participation**: Engaging with communities building Earth observation infrastructure
+- **Cross-Domain Translation**: Bridging scientific data processing and cloud-native engineering practices
+
 
 
 
@@ -184,7 +224,7 @@ The **Continuous Learning** foundation feels essential: every role change, techn
          ┌────────────────────┼────────────────────┐
          │                    │                    │
  ┌───────▼──────┐     ┌───────▼───────┐     ┌──────▼──────┐
- │  SCIENTIFIC  │────▶│  ENGINEERING  │────▶│     TEAM    │
+ │  SCIENTIFIC  │────>│  ENGINEERING  │────>│     TEAM    │
  │  THINKING    │     │  PRACTICES    │     │  LEADERSHIP │
  │              │     │               │     │             │
  │ • Systematic │     │ • Automation  │     │ • Mentoring │
