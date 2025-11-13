@@ -1,10 +1,10 @@
 ---
 title: "My Professional Journey"
-date: 2025-06-02
+date: 2025-11-12
 layout: simple
 ---
 
-My technical journey began in marine physics research, where I spent over a decade learning computational methods for oceanographic data analysis. This foundation in scientific computing and systematic problem-solving gradually evolved toward software engineering and cloud infrastructure.
+My technical journey began in marine physics research, where I spent over a decade learning computational methods for oceanographic data analysis. This foundation in scientific computing and systematic problem-solving gradually evolved toward software engineering and cloud infrastructure, ultimately leading to my current work building geospatial data platforms for Earth observation.
 
 If you are interested in a more theatrical storytelling format of my CV - co-realised by [Claude](https://claude.ai), you can find it here: _[Loïc's journey](/journey)_
 
@@ -12,7 +12,23 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 
 <div class="career-timeline">
 
-### 🚀 **Senior Cyber Platform Engineer** `2023 → Present`
+### 🌍 **Cloud Engineer** `2025 → Present`
+*Development Seed | Remote, Europe*
+
+<!-- 
+**Building Earth Observation Infrastructure**
+- Developing cloud-native platforms for processing massive geospatial datasets
+- Architecting data pipelines for Earth observation data from ESA, NASA, and ECMWF
+- Implementing infrastructure-as-code using Terraform and AWS CDK
+- Working with cloud-optimized geospatial formats (STAC, Zarr, COGs)
+- Contributing to open-source geospatial tools and communities
+!-->
+
+*Current focus:* Combining scientific data processing expertise with modern cloud engineering to enable Earth observation science at scale.
+
+---
+
+### 🚀 **Senior Cyber Platform Engineer** `2023 → 2025`
 *Department for Work and Pensions - Digital | Remote, UK*
 
 **Platform Leadership & Security Excellence**
