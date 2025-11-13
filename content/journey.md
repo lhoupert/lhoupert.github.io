@@ -1,15 +1,16 @@
 ---
-title: "From Ocean Depths to Cloud Heights"
-date: 2025-07-20
+title: "From Ocean Depths to Earth Observation"
+date: 2025-11-13
 layout: simple
 ---
 
 <div class="journey-hero">
 
-# 🌊 → 💻 → 🚀
-## From Ocean Depths to Cloud Heights
+# 🌊 → 💻 → 🚀 → 🛰️
+## From Ocean Depths to Earth Observation
 
 *A transformative journey through data, code, and human connection*
+
 
 </div>
 
@@ -100,7 +101,7 @@ layout: simple
 
 ---
 
-## 🚀 **Act III: The Platform Era** `2023 → Present`
+## 🚀 **Act III: The Platform Era** `2023 → 2025`
 
 <div class="era-platform">
 
@@ -125,17 +126,50 @@ layout: simple
 Individual Brilliance × Platform Leverage = Organizational Capability
 ```
 
+---
+
+## 🌍 **Act IV: The Earth Observation Era** `2025 → Present`
+
+<div class="era-earth-obs">
+
+### 🛰️ **The Geospatial Builder**
+
+<div class="role-card earth-obs-card">
+
+**🌍 The Data Infrastructure Architect** `2025 → Present`  
+*Development Seed | Remote, Europe*
+
+> *"From processing ocean currents to enabling Earth observation science—the data challenges remain, but now the planet is the dataset."*
+
+**The Mission**: Build cloud infrastructure for massive Earth observation datasets  
+**The Partners**: ESA, NASA, ECMWF—organizations watching the entire planet  
+**The Challenge**: Process terabytes of satellite imagery efficiently and reliably  
+**The Approach**: Cloud-native geospatial pipelines using STAC, Zarr, and COGs
+
+*Skills in Action*: 🛰️ Earth observation • 📊 Geospatial pipelines • ☁️ Cloud infrastructure • 🌐 Open science
+
+**The Full Circle Moment**:
+```
+Oceanographic Data (2010-2021)  
+    ↓ systematic data processing
+    ↓ quality control workflows
+    ↓ large-scale analysis
+Earth Observation Data (2025+)
+    = Same principles, planetary scale
+```
+
 </div>
 
 </div>
+
 
 ---
 
 <div class="journey-footer">
 
-**🌊 → 💻 → 🚀**  
-*From analyzing ocean currents to building team-enabling systems,  
-the journey continues...*
+**🌊 → 💻 → 🚀 → 🛰️**  
+*From analyzing ocean currents to enabling Earth observation,  
+the journey continues with each dataset teaching something new...*
 
 </div>
 
