@@ -15,8 +15,8 @@ title = "Loïc Houpert"
 [params.author]
   name = "Loïc Houpert"
   image = "img/loic2web.jpg"
-  headline = "Cloud Engineer building scalable AWS infrastructure <br> and enabling teams through DevOps automation"
-  bio = "I'm a cloud engineer focused on AWS infrastructure, containerization, and CI/CD pipelines. I build platforms that help teams deploy securely and efficiently, with expertise in Terraform, Docker, Python, and cloud-native architectures."
+  headline = "Cloud Engineer building geospatial data infrastructure <br> for Earth observation with ESA and ECMWF"
+  bio = "I'm a cloud engineer at Development Seed focused on geospatial data infrastructure and Earth observation systems. I build cloud-native platforms and data pipelines that enable organizations to process massive satellite imagery datasets efficiently. With expertise in AWS, Terraform, Python, and Docker, I combine a decade of scientific data processing experience with modern cloud engineering practices."
   links = [
      { linkedin = "https://www.linkedin.com/in/lo%C3%AFc-h-29232037/" },
      { github = "https://github.com/lhoupert" },
