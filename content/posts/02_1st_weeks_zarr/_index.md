@@ -27,7 +27,7 @@ Then I read Davis Bennett's presentation from the resources published in the [20
 
   
 
-I had been approaching Zarr like it was a container format with some clever cloud optimizations. But I had been missing the point... But I had been missing the point... Zarr is fundamentally about storing arrays as collections of named chunks. Each chunk gets a unique identifier (a key), and when you request specific data, for example, reading a time slice or spatial subset,Zarr figures out which chunk keys to fetch. It doesn't care where those chunks actually live. The keys can point to files on disk, objects in [cloud object storage](https://cloud.google.com/learn/what-is-object-storage), or entries in a database.
+I had been approaching Zarr like it was a container format with some clever cloud optimizations. But I had been missing the point... Zarr is fundamentally about storing arrays as collections of named chunks. Each chunk gets a unique identifier (a key), and when you request specific data, for example, reading a time slice or spatial subset,Zarr figures out which chunk keys to fetch. It doesn't care where those chunks actually live. The keys can point to files on disk, objects in [cloud object storage](https://cloud.google.com/learn/what-is-object-storage), or entries in a database.
 
   
   
