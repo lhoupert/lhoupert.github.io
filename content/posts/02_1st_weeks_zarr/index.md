@@ -2,7 +2,7 @@
 title: "When Zarr Stopped Being a File Format: Notes from my first weeks at Development Seed!"
 date: 2025-11-25
 draft: false
-layout: article
+layout: article     
 tags: ["zarr", "cloud-native", "geospatial", "earth-observation", "learning-in-public", "technical"]
 summary: "Why understanding Zarr as an API rather than a file format changed my way of thinking about cloud-native geospatial pipelines"
 ---
