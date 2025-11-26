@@ -1,5 +1,18 @@
+---
 
-  
+title: "When Zarr Stopped Being a File Format: Notes from my first weeks at Development Seed!"
+
+date: 2025-11-25
+
+draft: false
+
+layout: article
+
+tags: ["zarr", "cloud-native", "geospatial", "earth-observation", "learning-in-public", "technical"]
+
+summary: "Why understanding Zarr as an API rather than a file format changed my way of thinking about cloud-native geospatial pipelines"
+
+---
   
 
 ![Ocean observing systems including moored buoys, profiling floats, gliders and satellites](ocean-observing-network.jpg "Ocean observing systems including moored buoys, profiling floats, gliders and satellites. Source: [Whitt et. al, Future Vision for Autonomous Ocean Observations, Frontiers in Marine Science, 2020](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.00697/full)")
