@@ -2,9 +2,8 @@
   
   
 
-![Ocean observing systems including moored buoys and profiling floats](ocean-observing-network.jpg "Ocean observing systems including moored buoys and profiling floats. Source: [Whitt et. al, Future Vision for Autonomous Ocean Observations, Frontiers in Marine Science, 2020](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.00697/full)")
+![Ocean observing systems including moored buoys, profiling floats, gliders and satellites](ocean-observing-network.jpg "Ocean observing systems including moored buoys, profiling floats, gliders and satellites. Source: [Whitt et. al, Future Vision for Autonomous Ocean Observations, Frontiers in Marine Science, 2020](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.00697/full)")
 
-  
 
 For a big part of my career, I built data processing systems for oceanographic observations. I designed pipelines that ingested data from underwater buoys, research vessels, and satellite instruments.  Working with observational data at scale, I developed strong opinions about data formats. [NetCDF](https://www.ogc.org/standards/netcdf/) became my default because it is a robust, well-documented format that handles multi-dimensional scientific arrays with complete metadata.
 
