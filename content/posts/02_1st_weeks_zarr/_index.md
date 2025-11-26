@@ -1,10 +1,10 @@
 ---
-title: "When Zarr Stopped Being a File Format: Notes from my first Weeks at Development Seed!"
+title: "When Zarr Stopped Being a File Format: Notes from my first weeks at Development Seed!"
 date: 2025-11-25
-draft: true
+draft: false
 layout: article     
-tags: ["zarr", "cloud-native", "data-formats", "earth-observation", "learning", "technical"]
-summary: "My first weeks learning Zarr revealed it's not just NetCDF for the cloud. It's an API that maps array operations onto key-value storage, fundamentally changing how we design data pipelines for Earth observation."
+tags: ["zarr", "cloud-native", "geospatial", "earth-observation", "learning-in-public", "technical"]
+summary: "Why understanding Zarr as an API rather than a file format changed my way of thinking about cloud-native geospatial pipelines"
 ---
 
 
@@ -19,11 +19,12 @@ That assumption lasted about a week 😅
 
 I started my Zarr learning with Lindsey Nield's excellent explainer ["What is Zarr?"](https://earthmover.io/blog/what-is-zarr/) on the Earthmover blog. It's a solid introduction, clearly written, hits all the key points. But something kept not clicking for me. The article compared Zarr to other file formats, talked about chunks and compression, showed storage layouts. It all made sense on paper, but I couldn't quite grasp why everyone was so excited about it.
 
-Then I read Davis Bennett's presentation from the resources published in the [2025 Zarr Summit recap](https://cloudnativegeo.org/blog/2025/11/2025-zarr-summit-recap/). In his talk ["What is Zarr (and what isn't it)"](https://docs.google.com/presentation/d/1QB-EKo1qFqIreqehowBmz5kFJsUQCgYxprgrVabF35Y/edit?usp=sharing), Bennett explains something that reframed completely how I understood Zarr: **Zarr is an API or protocol, not a conventional file format**. For my scientist friends who are struggling in grasping the meaning of an API, it can be summarized by [a set of rules and definitions that let software systems communicate with each other](https://github.com/resources/articles/what-is-an-api#apis-at-github). 
+Then I read Davis Bennett's presentation from the resources published in the [2025 Zarr Summit recap](https://cloudnativegeo.org/blog/2025/11/2025-zarr-summit-recap/). In his talk ["What is Zarr (and what isn't it)"](https://docs.google.com/presentation/d/1QB-EKo1qFqIreqehowBmz5kFJsUQCgYxprgrVabF35Y/edit?usp=sharing), Bennett explains something that reframed completely how I understood Zarr: **Zarr is an API or protocol, not a conventional file format**. For my scientist friends who are struggling in grasping the meaning of an API, it can be summarized as [a set of rules and definitions that let software systems communicate with each other](https://github.com/resources/articles/what-is-an-api#apis-at-github). 
 
-I'd been approaching Zarr like it was a container format with some clever cloud optimizations. But I have been missing the point... Zarr defines how to map "array semantics" onto [key-value storage systems](https://en.wikipedia.org/wiki/Key%E2%80%93value_database). It doesn't care where or how the underlying data is physically stored, those keys can point to files on disk, objects in [cloud object storage](https://cloud.google.com/learn/what-is-object-storage), or entries in a database. 
+I'd been approaching Zarr like it was a container format with some clever cloud optimizations. But I had been missing the point... Zarr defines how to map "array semantics" onto [key-value storage systems](https://en.wikipedia.org/wiki/Key%E2%80%93value_database). It doesn't care where or how the underlying data is physically stored.  Those keys can point to files on disk, objects in [cloud object storage](https://cloud.google.com/learn/what-is-object-storage), or entries in a database. 
 
-This is an important distinction compare to traditional file format as it completely made me changes the way I think on how to design data pipelines.
+
+This is an important distinction compared to traditional file formats, and it completely changed how I think about designing data pipelines.
 
 
 ## A Sensor Network Analogy
@@ -73,7 +74,7 @@ You already know what you want. You know the data structure. Just get that speci
 
 Something crucial about how both of these are accessing data: there is no download step, it is over HTTP from a remote URL. No local caching is needed before you start working. The data lives where it lives, and you're describing your access pattern. Zarr figures out which chunks to fetch based on what you're actually requesting.
 
-The `chunks={}` parameter preserves the original chunking from the metadata. The idea behing it is to respect the intent of whoever organized the data. They chose those chunk dimensions for a reason, probably based on common access patterns, and using `chunks={}` means "trust those decisions".
+The `chunks={}` parameter preserves the original chunking from the metadata. The idea behind it is to respect the intent of whoever organized the data. They chose those chunk dimensions for a reason, probably based on common access patterns, and using `chunks={}` means "trust those decisions".
 
 
 
@@ -102,9 +103,8 @@ I think that is why everyone building cloud-native geospatial infrastructure is 
 
 ## What I'm Still Learning
 
-I'm in my 2nd week into understanding Zarr, and there's plenty I still don't fully grasp: the differences between Zarr V2 and V3, differences between Zarr and GeoZarr, differences between Zarr conventions and Zarr extension and how they relate to the core specification, or details of chunk encoding and compression options. But the fundamental mental model shift has happened: stop thinking about files, start thinking about array protocols over key-value stores.
+I'm in my 2nd week into understanding Zarr, and there's plenty I still don't fully grasp: the differences between Zarr V2 and V3, differences between Zarr and GeoZarr, differences between Zarr conventions and Zarr extensions and how they relate to the core specification, or details of chunk encoding and compression options. But the fundamental mental model shift has happened: stop thinking about files, start thinking about array protocols over key-value stores.
 
 If you're coming from NetCDF or HDF5, this requires unlearning some assumptions. File handles, sequential reads, monolithic containers. These concepts don't map cleanly to Zarr because I think Zarr isn't trying to be a better file format but it operates on different principles.
 
-For scientists and data engineers building systems to handle large-scale Earth observation data, that difference matters. There is a learning curve, but I think it is worth, as it is certainly [the future for scientific data](https://earthmover.io/blog/building-the-future-of-scientific-data-at-the-zarr-summit/). 
-
+In my opinion, this difference should matter for scientists and data engineers building systems to handle large-scale Earth observation. There is definitely a learning curve, but I think the mental model shift is worth it, especially as Zarr is becoming one of [data standard to work with climate data at the Exascale](https://www.dkrz.de/en/communication/news-archive/stac-zarr-summit2025). 
