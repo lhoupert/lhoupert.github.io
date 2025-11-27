@@ -196,4 +196,4 @@ If you are coming from NetCDF, this requires unlearning some assumptions (file h
 
   
 
-In my opinion, this difference should matter for scientists and data engineers building systems to handle large-scale Earth observation. There is definitely a learning curve, but I think the mental model shift is worth it, especially as Zarr is becoming one of [data standard to work with climate data at the Exascale](https://www.dkrz.de/en/communication/news-archive/stac-zarr-summit2025).
+In my opinion, this difference should matter for scientists and data engineers building systems to handle large-scale Earth observation. There is definitely a learning curve, but I think the mental model shift is worth it, especially as Zarr is becoming one of the [data standard to work with climate data at the Exascale](https://www.dkrz.de/en/communication/news-archive/stac-zarr-summit2025).
