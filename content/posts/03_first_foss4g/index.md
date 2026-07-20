@@ -19,5 +19,5 @@ The second day of the conference I mostly followed the European track. I liked S
 
 After my talk at FOSS4G, someone took the time to show me [Temporal](https://docs.temporal.io/temporal), a workflow orchestration tool I had not used before, close enough to what I have been building with Argo Workflows that we had plenty to talk about. I don't have a comparison to offer yet, but this chat gave me ideas for small projects I could do to learn it and understand its benefits for example for application development, or to streamline how we deploy data pipelines across different cloud environments. But it is a great example of how the whole week went: someone recognizes the shape of a problem they have also had, and is happy to start talking with you about their own experience and what they learned along the way.
 
-If you want to know more about "self-healing" geospatial data pipelines, my talk is here: [From Cron Job to Self-Healing Pipeline](https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/), and the full article will follow in part 2.
+If you want to know more about "self-healing" geospatial data pipelines, my talk is here: [From Cron Job to Self-Healing Pipeline](https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/), and I'll write more about how I built it in a future post.
 
