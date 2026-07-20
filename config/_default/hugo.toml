@@ -3,7 +3,7 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 baseURL = "https://lhoupert.fr"
-languageCode = "en"
+locale = "en"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true

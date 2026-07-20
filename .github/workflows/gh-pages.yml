@@ -22,7 +22,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          # Pinned so a new Hugo release can't break deploys; bump alongside theme upgrades
+          hugo-version: "0.164.0"
           extended: true
 
       - name: Build
