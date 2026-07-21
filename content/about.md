@@ -4,7 +4,7 @@ date: 2025-11-13
 layout: article
 ---
 
-I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. Currently at Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA, and ECMWF to process and analyze massive geospatial datasets efficiently.
+I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. Currently at Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA and ECMWF to process and analyze massive geospatial datasets efficiently.
 
 <!-- My work focuses on cloud-native architectures using infrastructure-as-code, containerization, and CI/CD pipelines. I build data processing systems that handle terabytes of satellite imagery and Earth observation data, implementing formats like STAC, Zarr, and Cloud-Optimized GeoTIFFs across AWS infrastructure. -->
 
@@ -33,7 +33,7 @@ During those years, I spent 200+ days at sea 🌊 in the North Atlantic and Medi
 
 In 2021, I transitioned to software engineering, joining OSE Engineering as an R&D Software Engineer. I worked on Python libraries and full-stack development projects, taking responsibility for repository maintenance, code structure, documentation, and tutorials.
 
-In November 2022, I joined the Department for Work and Pensions - Digital as a Software Engineer, developing cloud-based AI solutions for document processing and classification. In August 2023, I was promoted to Senior Cyber Platform Engineer, where I now focus on building secure, scalable platforms for AI workloads while mentoring junior engineers and improving team capabilities.
+In November 2022, I joined the Department for Work and Pensions - Digital as a Software Engineer, developing cloud-based AI solutions for document processing and classification. In August 2023, I was promoted to Senior Cyber Platform Engineer, where I focused on building secure, scalable platforms for AI workloads while mentoring junior engineers and improving team capabilities.
 
 Now at Development Seed, I combine my scientific data processing background with modern cloud engineering practices to build infrastructure that enables Earth observation science at scale.
 

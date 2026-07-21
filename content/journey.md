@@ -109,7 +109,7 @@ layout: simple
 
 <div class="role-card platform-card">
 
-**🛡️ The Infrastructure Guardian** `2023 → Present`  
+**🛡️ The Infrastructure Guardian** `2023 → 2025`  
 *Department for Work and Pensions - Digital | Remote*
 
 > *"Building platforms isn't just about technology—it's about multiplying human potential."*
@@ -119,12 +119,16 @@ layout: simple
 **The Method**: Pair programming, knowledge sharing, team enablement  
 **The Impact**: From individual contributor to force multiplier
 
-*Current Focus*: 🔒 Security-first design • 📦 Container platforms • 👥 Team multiplication
+*Focus*: 🔒 Security-first design • 📦 Container platforms • 👥 Team multiplication
 
 **The Platform Philosophy**:
 ```
 Individual Brilliance × Platform Leverage = Organizational Capability
 ```
+
+</div>
+
+</div>
 
 ---
 
