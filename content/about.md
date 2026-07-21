@@ -6,7 +6,7 @@ layout: article
 
 I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. At Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA and EUMETSAT (Destination Earth) to process and analyze massive geospatial datasets efficiently.
 
-Day to day I work with Kubernetes and Argo Workflows for orchestration, cloud-native geospatial formats like Zarr, STAC, and Cloud-Optimized GeoTIFFs, and Python throughout — on foundations of AWS, Terraform, and CI/CD automation built in previous platform engineering roles. I'm passionate about open source, security and supply-chain hardening, and helping teams adopt cloud-native approaches for scientific data processing.
+Day to day I work with Kubernetes and Argo Workflows for orchestration, cloud-native geospatial formats like Zarr and STAC, and Python. I also have good knowledge of AWS, Terraform, and CI/CD automation built in previous platform engineering roles. I'm passionate about open source, security and supply-chain hardening, and helping teams adopt cloud-native approaches for scientific data processing.
 
 
 ## My Journey from Ocean Data to Earth Observation
