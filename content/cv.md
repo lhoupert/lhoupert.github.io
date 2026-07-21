@@ -15,6 +15,12 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 ### 🌍 **Cloud Engineer** `2025 → Present`
 *Development Seed | Remote, Europe*
 
+**Earth Observation Infrastructure**
+- Built a Sentinel-1 radiometric terrain correction pipeline and Sentinel-to-Zarr ingestion for ESA's EOPF Explorer
+- Designed analysis-ready HEALPix datacubes (Zarr + Icechunk) for EUMETSAT's Destination Earth Data Lake
+- Led security and supply-chain hardening across the team's repositories and CI
+- Gave a talk and co-ran the eoAPI + STAC workshop at FOSS4G Europe 2026
+
 *Current focus:* Combining scientific data processing expertise with modern cloud engineering to enable Earth observation science at scale.
 
 ---
