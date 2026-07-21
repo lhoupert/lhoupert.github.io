@@ -1,12 +1,12 @@
 ---
 title: "About Me"
-date: 2025-11-13
+date: 2026-07-21
 layout: article
 ---
 
-I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. Currently at Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA, ECMWF, and EUMETSAT (Destination Earth) to process and analyze massive geospatial datasets efficiently.
+I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. At Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA and EUMETSAT (Destination Earth) to process and analyze massive geospatial datasets efficiently.
 
-I have hands-on experience with AWS services (ECS, Lambda, S3, VPC), Terraform and CDK for infrastructure management, Docker and Kubernetes for containerization, and comprehensive CI/CD automation. I'm passionate about open source, security best practices, and helping teams adopt cloud-native approaches for scientific data processing.
+Day to day I work with Kubernetes and Argo Workflows for orchestration, cloud-native geospatial formats like Zarr, STAC, and Cloud-Optimized GeoTIFFs, and Python throughout — on foundations of AWS, Terraform, and CI/CD automation built in previous platform engineering roles. I'm passionate about open source, security and supply-chain hardening, and helping teams adopt cloud-native approaches for scientific data processing.
 
 
 ## My Journey from Ocean Data to Earth Observation
@@ -19,7 +19,7 @@ This experience taught me the importance of robust data systems, systematic docu
 
 ## Academic Background & Research Experience
 
-I hold a Master of Science in Ocean and Atmosphere Physics from La Sorbonne University in Paris and a PhD in Physical Oceanography from Université de Perpignan Via Domitia (France)
+I hold a Master of Science in Ocean and Atmosphere Physics from La Sorbonne University in Paris and a PhD in Physical Oceanography from Université de Perpignan Via Domitia (France).
 
 I have always been interested in using technology to solve interesting data problems. After completing my PhD and a postdoctoral experience at CNRS and LOCEAN in Paris, I moved to Scotland where I worked at the Scottish Association for Marine Science in Oban as a research scientist for 4 years. Then I moved to England, working at the National Oceanography Centre in Southampton UK. 
 
@@ -33,7 +33,9 @@ In 2021, I transitioned to software engineering, joining OSE Engineering as an R
 
 In November 2022, I joined the Department for Work and Pensions - Digital as a Software Engineer, developing cloud-based AI solutions for document processing and classification. In August 2023, I was promoted to Senior Cyber Platform Engineer, where I focused on building secure, scalable platforms for AI workloads while mentoring junior engineers and improving team capabilities.
 
-Now at Development Seed, I combine my scientific data processing background with modern cloud engineering practices to build infrastructure that enables Earth observation science at scale. Two workstreams have taken up most of my time: building Sentinel-to-Zarr ingestion and a Sentinel-1 radiometric terrain correction pipeline for ESA's EOPF Explorer, and turning satellite archives into analysis-ready HEALPix datacubes for EUMETSAT's Destination Earth Data Lake. Different missions, but they come down to the same thing: making massive, awkward satellite archives fast and reliable to work with.
+In 2025, I joined Development Seed, where I combine my scientific data processing background with modern cloud engineering practices to build infrastructure that enables Earth observation science at scale. Two workstreams have taken up most of my time: building Sentinel-to-Zarr ingestion and a Sentinel-1 radiometric terrain correction pipeline for ESA's EOPF Explorer, and turning satellite archives into analysis-ready HEALPix datacubes for EUMETSAT's Destination Earth Data Lake. Different missions, but they come down to the same thing: making massive, awkward satellite archives fast and reliable to work with.
+
+I write up some of this work in more depth on my [projects](/projects) page, and my engineering-era talks — including a FOSS4G Europe 2026 talk on self-healing pipelines and an eoAPI + STAC workshop — are on the [talks](/talks) page.
 
 
 
