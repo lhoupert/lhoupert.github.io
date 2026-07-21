@@ -28,10 +28,10 @@
   pageRef = "skills"
   weight = 10
 
-# [[main]]
-#   name = "Projects"
-#   pageRef = "projects"
-#   weight = 10
+ [[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 8
 
  [[main]]
    name = "Blog"

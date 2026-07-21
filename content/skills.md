@@ -4,34 +4,7 @@ date: 2025-11-12
 layout: page
 ---
 
-## 📈 Skills Development Journey
-
-When I reflect on my career path, it feels less like a straight line and more like stepping stones across different domains. Each phase built upon the previous one, though I certainly didn't plan it this way from the beginning. What started as curiosity about ocean currents somehow led me to building geospatial data infrastructure!
-
-<div class="career-architecture">
-
-```
-    🌊 RESEARCH ERA           🔄 TRANSITION        🚀 CLOUD ERA           🌍 GEOSPATIAL ERA
-      (2010 → 2021)           (2021 → 2023)        (2023 → 2025)          (2025 → Present)
-                                  
-  ┌─────────────────┐     ┌────────────────┐    ┌─────────────────┐    ┌──────────────────┐
-  │                 │     │                │    │                 │    │                  │
-  │     RESEARCH    │ --> │   ENGINEERING  │ -->│    PLATFORMS    │ -->│  EARTH OBS DATA  │
-  │                 │     │                │    │                 │    │                  │
-  │  • Ocean Data   │     │  • Full Stack  │    │  • Security     │    │  • Geospatial    │
-  │  • Statistics   │     │  • Cloud APIs  │    │  • Containers   │    │  • STAC/Zarr     │
-  │  • Scientific   │     │  • Web Tech    │    │  • Team Growth  │    │  • Data Pipelines│
-  │     Writing     │     │  • Automation  │    │  • End Users    │    │  • Open Science  │
-  │                 │     │                │    │                 │    │                  │
-  └─────────────────┘     └────────────────┘    └─────────────────┘    └──────────────────┘
-           │                       │                       │                       │
-           ▼                       ▼                       ▼                       ▼
-📊 Scientific Computing   🌐 Web Development      🏗️ Infrastructure        🛰️ Earth Observation
-   & Data Engineering          & DevOps               & Teams 👥              Infrastructure
-```
-
-</div>
-<br>
+This is a snapshot of the tools and practices I actually reach for day to day, grouped by layer: the language I write in, the data and geospatial stack I work with, the infrastructure I run things on, and how I work with teams. Most of it grew out of one recurring problem: making large-scale scientific data less painful to work with. If you want the story of how I got from ocean data to Earth observation, that is on the [about page](/about).
 
 ## 🐍 Python Development Experience
 
@@ -39,24 +12,24 @@ I transitioned to Python as my primary language in 2020 after extensive work wit
 
 ### Core Development
 - **Language Experience**: Python since 2020, procedural, OOP
-- **Modern Tooling**: `uv`, `ruff`, `pytest`, pre-commit hooks
+- **Modern Tooling**: `uv`, `ruff`, `pytest`, `pyright`, pre-commit hooks
 - **Web Frameworks**: Flask, Django, FastAPI
 
 ### Data & Scientific Computing
-<!-- - **Geospatial Stack**: Rasterio, GDAL, PyProj, GeoPandas, Shapely
-- **Data Formats**: STAC, Zarr, Cloud-Optimized GeoTIFFs (COGs), NetCDF, HDF5 -->
+- **Geospatial Stack**: Rasterio, GDAL, PyProj, GeoPandas, Shapely, S1Tiling/OTB
+- **Data Formats**: STAC & pgSTAC, Zarr v3, GeoZarr, Icechunk, VirtualiZarr, Cloud-Optimized GeoTIFFs (COGs), NetCDF, HDF5, HEALPix
+- **Cloud-native tooling**: TiTiler, eoAPI
 - **Analysis Stack**: NumPy, Pandas, Xarray
 - **Visualization**: Matplotlib, Plotly, Cartopy (geospatial), Folium
 - **ML/Stats**: scikit-learn, statistical modeling, Monte Carlo methods
 
 ### Infrastructure Integration
-- **AWS SDKs**: boto3, CDK constructs, Lambda functions
+- **Cloud SDKs**: boto3, AWS CDK constructs, Lambda functions
 - **Documentation**: Sphinx, MkDocs, automated API docs
 - **Testing**: pytest, integration testing, mocking strategies
 
 <br>
 
-<!--
 ## 🗺️ Geospatial Data Engineering
 
 My decade working with oceanographic observations—processing data from underwater sensors, research vessels, and satellite altimetry—provided deep experience with large-scale scientific data workflows. This background translates directly to Earth observation infrastructure: both domains require robust data pipelines, quality control procedures, systematic metadata management, and cloud-optimized data formats.
@@ -69,18 +42,19 @@ My decade working with oceanographic observations—processing data from underwa
 | **Metadata** | CF conventions, standardized vocabularies | STAC catalogs, searchable metadata |
 
 <br>
--->
 
 ## 🔄 DevOps & Automation Experience
 
 I discovered DevOps practices out of necessity - managing research data across multiple environments taught me that manual processes don't scale, and inconsistency often leads to problems. Now I find myself gravitating toward automation not just for efficiency and repeatability but because it forces clarity in thinking. _"If you can't automate it, you probably don't understand it well enough yet."_
 
 
-| Domain | Tools & Approaches | Recent Focus |
+| Domain | Tools & Approaches | Current Focus |
 |--------|-------------------|--------------|
-| **CI/CD** | GitLab CI, GitHub Actions, Conventional Commits | Automated versioning |
-| **IaC** | Terraform, AWS CDK, Configuration Management | Multi-env modules |
-| **Security** | SAST/DAST, Container Scanning, Policy as Code | Zero-CVE containers |
+| **Orchestration** | Kubernetes (OVH/OpenStack), Argo Workflows & Events | Data-driven Earth observation pipelines |
+| **CI/CD** | GitHub Actions, Conventional Commits (GitLab CI previously) | Automated, reproducible releases |
+| **GitOps & IaC** | Flux, Helm, Terraform | Declarative multi-environment deployments |
+| **Security** | Prowler, Trivy, zizmor, SHA-pinned actions, Dependabot, Keycloak/OIDC | Supply-chain and platform hardening |
+| **Observability** | Grafana, Loki, Prometheus, Falco | Catching silent failures early |
 
 <br>
 
@@ -91,43 +65,46 @@ My experience with cloud infrastructure has taught me to appreciate both the tec
 <div class="career-architecture">
 
 ```
-┌─────────────────────────────────────┐
-│  AWS Ecosystem                      │
-│  ├─ ECS Fargate (Container Runtime) │
-│  ├─ Bedrock (AI/ML Services)        │
-│  ├─ Lambda (Serverless Functions)   │
-│  └─ VPC/Security Groups             │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│  Kubernetes (OVH / OpenStack)           │
+│  ├─ Argo Workflows (batch pipelines)    │
+│  ├─ Argo Events (data-driven triggers)  │
+│  ├─ Helm (packaging)                    │
+│  └─ Flux (GitOps reconciliation)        │
+└─────────────────────────────────────────┘
                     ↕
-┌─────────────────────────────────────┐
-│  Infrastructure as Code             │
-│  ├─ Terraform (Multi-environment)   │
-│  ├─ AWS CDK (TypeScript/Python)     │
-│  └─ GitLab CI/CD (Automation)       │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│  Delivery & IaC                         │
+│  ├─ GitHub Actions (CI/CD)              │
+│  ├─ Terraform (multi-environment)       │
+│  └─ AWS (secondary cloud, CDK/boto3)    │
+└─────────────────────────────────────────┘
 ```
 </div>
 
 ### 🐳 Containerization & Security Stack
 
-Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with zero-CVE approaches like Chainguard images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
+Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal, zero-CVE base images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
 
 <div class="career-architecture">
 
 ```
-┌──────────────┬──────────────┬────────────────┐
-│   Security   │  Containers  │  Orchestration │
-├──────────────┼──────────────┼────────────────┤
-│ Chainguard   │   Docker     │  ECS Fargate   │
-│ Images       │ Multi-stage  │  Task Def.     │
-│              │   Builds     │                │
-├──────────────┼──────────────┼────────────────┤
-│ Trivy        │  Zero-CVE    │  Auto Scaling  │
-│ SAST/DAST    │  Approach    │  Load Balance  │
-└──────────────┴──────────────┴────────────────┘
+┌──────────────┬───────────────┬────────────────┐
+│   Security   │  Containers   │  Orchestration │
+├──────────────┼───────────────┼────────────────┤
+│ Prowler      │  Docker       │  Kubernetes    │
+│ Trivy        │  Multi-stage  │  Argo Workflows│
+│ zizmor       │  Chainguard   │  Argo Events   │
+├──────────────┼───────────────┼────────────────┤
+│ Keycloak /   │  Minimal      │  Helm / Flux   │
+│ OIDC         │  base images  │  GitOps        │
+└──────────────┴───────────────┴────────────────┘
 ```
 </div>
 
+### 🤖 AI-Assisted Engineering
+
+A growing part of how I work is pairing with coding agents day to day - exploring unfamiliar codebases, drafting tests, and getting through the more mechanical parts of a refactor faster. I treat their output the way I treat my own first draft: useful, but nothing ships until I have read it, understood it, and can explain why each change is correct. Working this way has pushed me to be more deliberate about writing clear specifications and keeping a tight verification loop, not less.
 
 ## 👥 Team Leadership & Enablement
 
@@ -172,13 +149,11 @@ Throughout my career, I've had opportunities to mentor and support team members:
 
 
 
-
 ### Current Focus Areas
 
 - **Knowledge Sharing**: Contributing to documentation and learning resources for geospatial data engineering
 - **Open Source Participation**: Engaging with communities building Earth observation infrastructure
 - **Cross-Domain Translation**: Bridging scientific data processing and cloud-native engineering practices
-
 
 
 
@@ -219,4 +194,3 @@ The **Continuous Learning** foundation feels essential: every role change, techn
 ```
 
 </div>
-

@@ -3,12 +3,12 @@ title: "CAnDL Platform"
 date: 2025-08-01
 tags: ["aws", "terraform", "containers", "ai-ml"]
 summary: "Multi-user AI platform with RAG capabilities, serving internal data science teams"
-draft: true
+draft: false
 ---
 
 ## Project Overview
 
-Developed a container-based platform for deploying analytics and IA applications for internal teams, focusing on security compliance and developer productivity.
+Developed a container-based platform for deploying analytics and AI applications for internal teams, focusing on security compliance and developer productivity.
 
 ## Technical Architecture
 

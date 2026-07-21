@@ -14,10 +14,12 @@ layout: simple
 
 </div>
 
+> *A theatrical retelling of my career, co-written with [Claude](https://claude.ai) in 2025. It is a snapshot from that year, not a page I keep updated — for the sober, current version, see my [CV](/cv).*
+
 
 ---
 
-## 🎭 **Act I: The Ocean Years** `2010 → 2021`
+## 🎭 **Act I: The Ocean Years** `2014 → 2021`
 
 <div class="era-ocean">
 
@@ -146,7 +148,7 @@ Individual Brilliance × Platform Leverage = Organizational Capability
 > *"From processing ocean currents to enabling Earth observation science—the data challenges remain, but now the planet is the dataset."*
 
 **The Mission**: Build cloud infrastructure for massive Earth observation datasets  
-**The Partners**: ESA, NASA, ECMWF—organizations watching the entire planet  
+**The Partners**: ESA, ECMWF, EUMETSAT—organizations watching the entire planet  
 **The Challenge**: Process terabytes of satellite imagery efficiently and reliably  
 **The Approach**: Cloud-native geospatial pipelines using STAC, Zarr, and COGs
 
