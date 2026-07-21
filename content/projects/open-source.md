@@ -3,7 +3,7 @@ title: "Open Source"
 date: 2026-07-21
 tags: ["open-source", "geospatial", "security", "stac", "zarr"]
 summary: "Companion code, security tooling, and upstream contributions across the cloud-native geospatial stack."
-draft: false
+draft: true
 ---
 
 ## Companion code

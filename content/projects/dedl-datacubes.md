@@ -3,7 +3,7 @@ title: "Destination Earth Datacubes for EUMETSAT"
 date: 2026-07-21
 tags: ["earth-observation", "zarr", "healpix", "icechunk", "eumetsat", "datacubes"]
 summary: "Turning MSG, MTG and Sentinel-3 archives into analysis-ready HEALPix Zarr datacubes for EUMETSAT's Destination Earth Data Lake."
-draft: false
+draft: true
 ---
 
 ## What it is
