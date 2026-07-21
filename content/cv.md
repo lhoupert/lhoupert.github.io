@@ -1,5 +1,5 @@
 ---
-title: "My Professional Journey"
+title: "CV"
 date: 2025-11-12
 layout: simple
 ---
@@ -15,15 +15,6 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 ### 🌍 **Cloud Engineer** `2025 → Present`
 *Development Seed | Remote, Europe*
 
-<!-- 
-**Building Earth Observation Infrastructure**
-- Developing cloud-native platforms for processing massive geospatial datasets
-- Architecting data pipelines for Earth observation data from ESA, NASA, and ECMWF
-- Implementing infrastructure-as-code using Terraform and AWS CDK
-- Working with cloud-optimized geospatial formats (STAC, Zarr, COGs)
-- Contributing to open-source geospatial tools and communities
-!-->
-
 *Current focus:* Combining scientific data processing expertise with modern cloud engineering to enable Earth observation science at scale.
 
 ---
@@ -36,7 +27,7 @@ If you are interested in a more theatrical storytelling format of my CV - co-rea
 - Achieved zero-CVE baseline through migration to Chainguard minimal containers
 - Reduced deployment frequency from monthly to weekly through CI/CD automation
 - Increased application test coverage from 10% to 85% using comprehensive testing strategies
-- Leading team of 2 junior engineers through pair programming and knowledge sharing
+- Led team of 2 junior engineers through pair programming and knowledge sharing
 
 *Key learning:*  Transitioning from individual contributor to platform enabler, focusing on team productivity and organizational capability building.
 

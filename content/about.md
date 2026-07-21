@@ -4,9 +4,7 @@ date: 2025-11-13
 layout: article
 ---
 
-I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. Currently at Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA and ECMWF to process and analyze massive geospatial datasets efficiently.
-
-<!-- My work focuses on cloud-native architectures using infrastructure-as-code, containerization, and CI/CD pipelines. I build data processing systems that handle terabytes of satellite imagery and Earth observation data, implementing formats like STAC, Zarr, and Cloud-Optimized GeoTIFFs across AWS infrastructure. -->
+I am a cloud engineer specializing in geospatial data infrastructure and DevOps automation. Currently at Development Seed, I design and build scalable cloud platforms for Earth observation data, enabling organizations like ESA, ECMWF, and EUMETSAT (Destination Earth) to process and analyze massive geospatial datasets efficiently.
 
 I have hands-on experience with AWS services (ECS, Lambda, S3, VPC), Terraform and CDK for infrastructure management, Docker and Kubernetes for containerization, and comprehensive CI/CD automation. I'm passionate about open source, security best practices, and helping teams adopt cloud-native approaches for scientific data processing.
 
@@ -35,7 +33,7 @@ In 2021, I transitioned to software engineering, joining OSE Engineering as an R
 
 In November 2022, I joined the Department for Work and Pensions - Digital as a Software Engineer, developing cloud-based AI solutions for document processing and classification. In August 2023, I was promoted to Senior Cyber Platform Engineer, where I focused on building secure, scalable platforms for AI workloads while mentoring junior engineers and improving team capabilities.
 
-Now at Development Seed, I combine my scientific data processing background with modern cloud engineering practices to build infrastructure that enables Earth observation science at scale.
+Now at Development Seed, I combine my scientific data processing background with modern cloud engineering practices to build infrastructure that enables Earth observation science at scale. Two workstreams have taken up most of my time: building Sentinel-to-Zarr ingestion and a Sentinel-1 radiometric terrain correction pipeline for ESA's EOPF Explorer, and turning satellite archives into analysis-ready HEALPix datacubes for EUMETSAT's Destination Earth Data Lake. Different missions, but they come down to the same thing: making massive, awkward satellite archives fast and reliable to work with.
 
 
 
