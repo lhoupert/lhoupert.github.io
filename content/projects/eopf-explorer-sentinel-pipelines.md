@@ -8,7 +8,7 @@ draft: false
 
 ## What it is
 
-At Development Seed I work on ESA's EOPF Explorer, building the pipelines that turn raw Sentinel data into analysis-ready, cloud-native datasets. My work has three strands: converting Sentinel-2 products into GeoZarr at scale, the operational machinery that keeps a growing catalogue healthy without manual intervention, and a developing the production pipeline to support other Sentinel missions (e.g. Sentinel-1).
+At Development Seed I work on ESA's EOPF Explorer, building the pipelines that turn raw Sentinel data into analysis-ready, cloud-native datasets. My work is mostly around three areas: converting Sentinel-2 products into GeoZarr at scale, the operational machinery that keeps a growing catalogue healthy without manual intervention, and a developing the production pipeline to support other Sentinel missions (e.g. Sentinel-1).
 
 ## Sentinel-2: GeoZarr ingestion at scale
 
