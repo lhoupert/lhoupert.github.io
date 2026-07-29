@@ -20,6 +20,8 @@ I started working with data pipeline back in the days of my PhD (2010-2013). For
 When I started working on data pipelines at Development Seed at the end of last year, I was not familiar with the tooling but I had a good understanding of the problems we were trying to solve. I was relatively new to Kubernetes (I never used it in prod environment, only tinkering with it on my homelab) and I never used [Argo Workflows](https://argoproj.github.io/workflows/) before. But to my surprise,  it went faster than I expected, mostly because I was already familiar with the concepts and I just had to adapt to the new tool.  I still remember where I got a bit stuck during my learning journey, which give me the idea of [the talk I gave at FOSS4G](https://lhoupert.fr/foss4g2026-talk/) and its companion repo co-created with Claude, [argo-stac-eo-pipeline](https://github.com/lhoupert/argo-stac-eo-pipeline) .
 
 
+To structure the talk, I placed the setups I had used or built over the years on a small maturity ladder, from rung 0, the crontab line I started with during my PhD, up to rung 4, a pipeline that repairs itself and tells me every morning what it did. Each rung takes a bit more of the babysitting work off my hands. In the companion repo each rung is a stage (`stages/00-cron`, `stages/01-argo-retries` ...), which is why the demo commands below are `make demo STAGE=01`, `STAGE=02` and so on.
+
 ![The maturity ladder, rungs 0 to 4](ladder.svg "My version of the maturity ladder for EO data pipeline (rungs 0 to 4). Source: [my FOSS4G 2026 talk](https://lhoupert.fr/foss4g2026-talk/), CC BY 4.0")
 
 ## Deep-dive into the demo
@@ -28,7 +30,7 @@ All the demo is built so it can run on a laptop. Once [the companion repo](https
 
 It ingests synthetic Earth-observation data across two STAC collections, `synthetic-aurora-veil` and `synthetic-tidal-glass`. None of it is a real satellite data, I wanted to keep that lightweight and put the focus on the data ingestion problems instead: daily acquisitions, occasional gaps, a backlog that needs backfilling.
 
-The same docker image runs at every stage/rung: `eo-ingest:dev`. It never changes from rung 0 to rung 4, what changes instead is what wraps it.
+The same docker image runs at every rung: `eo-ingest:dev`. It never changes from rung 0 to rung 4, what changes instead is what wraps it.
 
 ### Rung 0: the cron job
 
@@ -174,7 +176,7 @@ Interestingly, this rung felt very familiar to me as I was used to work on simil
 
 ### Rung 4: a daily report to see what happened
 
-By rung 3 the pipeline "repairs itself", but I still could not easily see what it had done from one day to another, and I did not want to fall back into my old habit of checking everything by hand every morning. This rung, rung 4,  does not touch the ingest step at all; it runs the same image one more way, as a daily report:
+By rung 3 the pipeline "repairs itself", but I still could not easily see what it had done from one day to another, and I did not want to fall back into my old habit of checking everything by hand every morning. Rung 4 does not touch the ingest step at all; it runs the same image one more way, as a daily report:
 
 ```bash
 make demo STAGE=04         # render the report in-cluster
