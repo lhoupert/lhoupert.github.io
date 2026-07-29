@@ -20,7 +20,7 @@ I started working with data pipeline back in the days of my PhD (2010-2013). For
 When I started working on data pipelines at Development Seed at the end of last year, I was not familiar with the tooling but I had a good understanding of the problems we were trying to solve. I was relatively new to Kubernetes (I never used it in prod environment, only tinkering with it on my homelab) and I never used [Argo Workflows](https://argoproj.github.io/workflows/) before. But to my surprise,  it went faster than I expected, mostly because I was already familiar with the concepts and I just had to adapt to the new tool.  I still remember where I got a bit stuck during my learning journey, which give me the idea of [the talk I gave at FOSS4G](https://lhoupert.fr/foss4g2026-talk/) and its companion repo co-created with Claude, [argo-stac-eo-pipeline](https://github.com/lhoupert/argo-stac-eo-pipeline) .
 
 
-![The maturity ladder, rungs 0 to 4](ladder.svg "The maturity ladder, rungs 0 to 4. Source: [my FOSS4G 2026 talk](https://lhoupert.fr/foss4g2026-talk/), CC BY 4.0")
+![The maturity ladder, rungs 0 to 4](ladder.svg "My version of the maturity ladder for EO data pipeline (rungs 0 to 4). Source: [my FOSS4G 2026 talk](https://lhoupert.fr/foss4g2026-talk/), CC BY 4.0")
 
 ## Deep-dive into the demo
 
