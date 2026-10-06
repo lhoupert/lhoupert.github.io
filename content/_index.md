@@ -5,8 +5,6 @@ layout: "profile"
 
 
 <br>
-I'm a cloud engineer specializing in geospatial data infrastructure, containerization, and DevOps automation. 
+I'm a cloud engineer at [Development Seed](https://developmentseed.org/). I work on the step between satellite data providers and the people who use their data: pipelines that turn Sentinel and Meteosat products into analysis-ready Zarr datacubes catalogued in STAC, and the checks that keep them correct once they run in production. So far that work has been for ESA ([EOPF Sentinel Zarr Explorer](https://dataspace.copernicus.eu/ecosystem/services/eopf-sentinel-zarr-explorer)) and EUMETSAT (Destination Earth Data Lake), with Kubernetes, Argo Workflows, Python and a lot of Zarr.
 
-Currently at Development Seed, I build cloud-native platforms and data pipelines for Earth observation systems, working with organizations like ESA, ECMWF, and EUMETSAT. I focus on scalable infrastructure-as-code, container orchestration, and helping teams process and analyze massive geospatial datasets efficiently.
-
-Previously, I spent a decade as a research scientist developing data processing systems for oceanographic observations, giving me deep expertise in large-scale scientific data workflows.
+Before that I spent about ten years (2010–2021) as a physical oceanographer, working with gliders and moorings in the subpolar North Atlantic and the Mediterranean. Some of the processing code I wrote or maintained, and the open datasets I published, are still in use today. In between, I learnt the software side at OSE Engineering and at the UK Department for Work and Pensions, where I co-architected a secure container platform for data scientists and analysts.

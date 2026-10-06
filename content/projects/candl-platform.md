@@ -8,7 +8,7 @@ draft: false
 
 ## Project Overview
 
-Developed a container-based platform for deploying analytics and AI applications for internal teams, focusing on security compliance and developer productivity.
+Co-architected and built a container-based platform for deploying analytics and AI applications for internal teams, focusing on security compliance and developer productivity.
 
 ## Technical Architecture
 
@@ -20,7 +20,6 @@ Developed a container-based platform for deploying analytics and AI applications
 
 **Security Implementation**
 - Migration from standard Debian images to Chainguard minimal containers
-- Achieved zero-CVE baseline across all production containers
 - Implemented security scanning integration within CI/CD pipelines
 - Network isolation through VPC endpoint configurations
 
@@ -68,7 +67,6 @@ This project involved close coordination with:
 ## Technical Outcomes
 
 - Deployment frequency improved from monthly to weekly cycles
-- Container security vulnerabilities reduced to zero
 - Developer onboarding time decreased through standardized tooling
 - Infrastructure consistency achieved across multiple environments
 

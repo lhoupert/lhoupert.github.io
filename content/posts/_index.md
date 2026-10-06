@@ -3,7 +3,7 @@ title: "Blog"
 description: "From ocean depths to orbital views: learning cloud-native geospatial engineering in public"
 ---
 
-Welcome to my blog! I document here my learning journey as a Cloud Engineer at Development Seed, working on cloud-native geospatial pipelines and AI-driven tools for Earth observation. Beyond documenting my own learning, I hope these posts help others exploring the intersection of scientific computing, geospatial technologies, and modern cloud infrastructure.
+Welcome to my blog! I document here my learning journey as a Cloud Engineer at Development Seed, working on cloud-native pipelines and datacubes for Earth observation. Beyond documenting my own learning, I hope these posts help others exploring the intersection of scientific computing, geospatial technologies, and modern cloud infrastructure.
 My background spans oceanographic research, platform engineering, and cloud infrastructure.
 
 ## What I write about

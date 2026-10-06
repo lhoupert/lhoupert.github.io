@@ -14,4 +14,4 @@ A hands-on introduction to standing up a STAC API and browsing Earth observation
 
 ---
 
-Before moving into engineering I spent a decade in oceanography, where I gave 60+ talks at international conferences (12 as an invited speaker). This page tracks the engineering era; the research years are covered in my [CV](/cv).
+Before moving into engineering I spent about ten years in oceanography, where I co-authored more than 50 conference presentations, including 12 invited talks. This page tracks the engineering era; the research years are covered in my [CV](/cv).
