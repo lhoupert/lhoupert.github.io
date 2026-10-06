@@ -4,21 +4,20 @@ date: 2026-10-06
 layout: simple
 ---
 
-## Upcoming
+**[The new format for all Sentinel products: EOPF Zarr](https://talks.osgeo.org/foss4g-uk-2026/talk/FWLKXA/)** — FOSS4G:UK 2026, Leeds, 13 October 2026. Lightning talk.
+A five-minute introduction to EOPF Zarr, the Zarr-based format ESA is exploring for Sentinel products: its design, current status, and the open-source tools growing around it.
 
-**[eoAPI with STAC for Earth Data at scale](https://talks.osgeo.org/foss4g-uk-2026/talk/MPE9FK/)** — FOSS4G:UK 2026, Leeds, 12 October. Workshop, co-run with Ciaran Sweet.
+**[eoAPI with STAC for Earth Data at scale](https://talks.osgeo.org/foss4g-uk-2026/talk/MPE9FK/)** — FOSS4G:UK 2026, Leeds, 12 October 2026. Workshop, co-run with Ciaran Sweet.
 A hands-on session on cataloguing, discovering, visualising and analysing Earth observation data with eoAPI and STAC, working with its metadata, raster and vector services.
 
-## Delivered
-
-**Visualising Zarr-encoded Sentinel data in the browser** — [UK Earth Observation Conference 2026](https://www.nceo.ac.uk/news-media/events/uk-earth-observation-conference-2026/), University of Warwick.
+**Visualising Zarr-encoded Sentinel data in the browser** — [UK Earth Observation Conference 2026](https://www.nceo.ac.uk/news-media/events/uk-earth-observation-conference-2026/), University of Warwick, 15–17 September 2026.
 How the EOPF Sentinel Zarr Explorer lets people browse Sentinel data converted to GeoZarr straight in the browser, without downloads, and the open tools behind it (STAC, GeoZarr, TiTiler). Presented on behalf of the EOPF Explorer team.
 
-**[From Cron Job to Self-Healing Pipeline](https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/)** — FOSS4G Europe 2026, Timișoara.
-Using Argo and STAC to build Earth observation ingestion pipelines that recover from silent failures instead of hiding them.
-
-**[eoAPI + STAC workshop](https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/HYXDDR/)** — FOSS4G Europe 2026, Timișoara.
+**[eoAPI + STAC workshop](https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/HYXDDR/)** — FOSS4G Europe 2026, Timișoara, 2 July 2026. Workshop, co-run with Felix Delattre.
 A hands-on introduction to standing up a STAC API and browsing Earth observation data with eoAPI.
+
+**[From Cron Job to Self-Healing Pipeline](https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/)** — FOSS4G Europe 2026, Timișoara, 29 June 2026.
+Using Argo and STAC to build Earth observation ingestion pipelines that recover from silent failures instead of hiding them.
 
 ---
 

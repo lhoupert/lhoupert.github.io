@@ -18,7 +18,7 @@ I started in physical oceanography, where I spent about ten years (2010–2021) 
 **Earth observation data systems**
 - Worked on the Sentinel-to-GeoZarr conversion and STAC registration pipelines for ESA's EOPF Sentinel Zarr Explorer (Kubernetes, Argo Workflows), and built most of the storage lifecycle and retention automation
 - Added STAC validation before publishing and GeoZarr conformance checks across readers (GDAL, TiTiler, OpenLayers), reporting validator gaps upstream
-- Co-wrote the first architecture decision record and MVP plan for onboarding EUMETSAT data into the Destination Earth Data Lake, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI, MTG FCI and first Sentinel-3 OLCI cubes, with STAC metadata and quickstart notebooks for users
+- Co-wrote the first architecture decision record and MVP plan for onboarding EUMETSAT data into the Destination Earth Data Lake, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI and MTG FCI cubes, with STAC metadata and quickstart notebooks for users
 - Turned throughput benchmarks into a capacity plan for the MVP, and chose datacube chunk layouts from read benchmarks on the live stores
 - Started Development Seed's supply-chain security effort: a reusable security-auditing GitHub Action and pinning/Dependabot fixes across Development Seed and community geospatial repositories
 - Upstream contributions to OpenLayers (GeoZarr dimension selection) and fixes in fsspec and the STAC/eoAPI tooling; talks at FOSS4G Europe and UKEO 2026, and helped run an eoAPI + STAC workshop
