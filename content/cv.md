@@ -117,6 +117,8 @@ The full list is on [Google Scholar](https://scholar.google.com/citations?user=1
 - Lozier, M. S., et al. (2017). Overturning in the Subpolar North Atlantic Program: A new international ocean observing system. *Bulletin of the American Meteorological Society*. [doi:10.1175/BAMS-D-16-0057.1](https://doi.org/10.1175/BAMS-D-16-0057.1)
 - Testor, P., et al. (2019). OceanGliders: A component of the integrated GOOS. *Frontiers in Marine Science*. [doi:10.3389/fmars.2019.00422](https://doi.org/10.3389/fmars.2019.00422)
 
+Also on sustained ocean observing and instrument uncertainty: McCarthy et al. 2020, *Sustainable observations of the AMOC: methodology and technology* ([doi:10.1029/2019RG000654](https://doi.org/10.1029/2019RG000654)); Hopkins et al. 2019, *Transport variability of the Irminger Sea Deep Western Boundary Current from a mooring array* ([doi:10.1029/2018JC014730](https://doi.org/10.1029/2018JC014730)); and Cheng et al. 2016, *XBT science: assessment of instrumental biases and errors* ([doi:10.1175/BAMS-D-15-00031.1](https://doi.org/10.1175/BAMS-D-15-00031.1)).
+
 **Open data, code and reports**
 - Gridded climatology of the mixed layer, seasonal thermocline and upper-ocean heat storage rate for the Mediterranean Sea, 1969–2013 (SEANOE). [doi:10.17882/46532](https://doi.org/10.17882/46532)
 - UK OSNAP delayed-mode glider dataset, 2014–2018 (BODC). [doi:10.5285/79fdab65-0ce9-56ef-e053-6c86abc08912](https://doi.org/10.5285/79fdab65-0ce9-56ef-e053-6c86abc08912)
