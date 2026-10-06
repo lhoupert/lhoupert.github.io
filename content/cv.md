@@ -6,7 +6,7 @@ layout: simple
 
 I started in physical oceanography, where I spent about ten years (2010–2021) observing the ocean with gliders, moorings and research ships, writing processing code and publishing open datasets so others could use those observations. I then moved into software and cloud engineering, and since November 2025 I've been building Earth observation data systems at Development Seed.
 
-If you prefer a more theatrical version, co-written with [Claude](https://claude.ai) in 2025, it's here: _[Loïc's journey](/journey)_
+
 
 ## Career Evolution Timeline
 
@@ -15,16 +15,14 @@ If you prefer a more theatrical version, co-written with [Claude](https://claude
 ### 🌍 **Cloud Engineer** `2025 → Present`
 *Development Seed | Remote, UK*
 
-**Earth observation data systems, from design to production**
-- Wrote the first architecture decision record and MVP plan for onboarding EUMETSAT data into the Destination Earth Data Lake, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI, MTG FCI and first Sentinel-3 OLCI cubes, with STAC metadata and quickstart notebooks for users
-- Turned throughput benchmarks into a capacity plan for the MVP, and chose datacube chunk layouts from read benchmarks on the live stores
+**Earth observation data systems**
 - Worked on the Sentinel-to-GeoZarr conversion and STAC registration pipelines for ESA's EOPF Sentinel Zarr Explorer (Kubernetes, Argo Workflows), and built most of the storage lifecycle and retention automation
-- Built a Sentinel-1 radiometric terrain correction MVP that produced per-tile GeoZarr datacubes over France and the Alps, and contributed its data model and STAC builders to the open-source eopf-geozarr library
 - Added STAC validation before publishing and GeoZarr conformance checks across readers (GDAL, TiTiler, OpenLayers), reporting validator gaps upstream
+- Co-wrote the first architecture decision record and MVP plan for onboarding EUMETSAT data into the Destination Earth Data Lake, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI, MTG FCI and first Sentinel-3 OLCI cubes, with STAC metadata and quickstart notebooks for users
+- Turned throughput benchmarks into a capacity plan for the MVP, and chose datacube chunk layouts from read benchmarks on the live stores
 - Started Development Seed's supply-chain security effort: a reusable security-auditing GitHub Action and pinning/Dependabot fixes across Development Seed and community geospatial repositories
 - Upstream contributions to OpenLayers (GeoZarr dimension selection) and fixes in fsspec and the STAC/eoAPI tooling; talks at FOSS4G Europe and UKEO 2026, and helped run an eoAPI + STAC workshop
 
-*The research years still help: when Sentinel-1 output looked 47 km off, the cause was a geoid grid stored in 0–360° longitude.*
 
 ---
 

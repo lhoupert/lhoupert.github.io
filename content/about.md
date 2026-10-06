@@ -4,7 +4,7 @@ date: 2026-10-06
 layout: article
 ---
 
-I'm a cloud engineer at [Development Seed](https://developmentseed.org/), based in Durham, UK. I design and run the pipelines that turn Sentinel and Meteosat archives into analysis-ready, cloud-native datasets, on Kubernetes and Argo Workflows. Before that I was a physical oceanographer for about ten years, and some of how I work today still comes from that time.
+I'm a cloud engineer at [Development Seed](https://developmentseed.org/), based in Durham, UK. I design and run the pipelines that turn Sentinel and Meteosat archives into analysis-ready, cloud-native datasets, on Kubernetes and Argo Workflows. Before that I was a physical oceanographer for about ten years.
 
 ## What I work on
 
@@ -12,13 +12,13 @@ Two projects have taken most of my time since I joined in November 2025.
 
 For ESA's [EOPF Sentinel Zarr Explorer](https://dataspace.copernicus.eu/ecosystem/services/eopf-sentinel-zarr-explorer), I worked on the pipelines that convert Sentinel products to GeoZarr and register them in a STAC catalogue, and built most of the lifecycle automation (storage tiers, retention) that a large catalogue needs. I also built a Sentinel-1 radiometric terrain correction MVP that produced per-tile GeoZarr datacubes over France and the Alps, and contributed its data model to the open-source [eopf-geozarr](https://github.com/EOPF-Explorer/data-model) library. There is more on the [project page](/projects/eopf-explorer-sentinel-pipelines/).
 
-For EUMETSAT's Destination Earth Data Lake, I wrote the first architecture decision record and the MVP plan for onboarding the data, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI, MTG FCI and first Sentinel-3 OLCI cubes. A lot of that job was design rather than code. I turned throughput benchmarks into a capacity plan for the MVP and chose the chunk layout from read benchmarks on the live stores. The data encodings were agreed with EUMETSAT experts before they went into the code, and I wrote the quickstart notebooks that users start from.
+For EUMETSAT's Destination Earth Data Lake, I co-wrote the first architecture decision record and the MVP plan for onboarding the data, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI and MTG FCI cubes. A lot of that job was design rather than code. I turned throughput benchmarks into a capacity plan for the MVP and chose the chunk layout from read benchmarks on the live stores. The data encodings were agreed with EUMETSAT experts before they went into the code, and I wrote the quickstart notebooks that users start from.
 
 Both projects involve several organisations, from the agencies that own the data to the teams who build on it, so a fair share of the design work is agreeing formats and conventions with them before anything gets built.
 
-What I spend the most care on is that the data is correct and stays correct. In practice that means validating STAC metadata before it is published, checking stores against the GeoZarr spec with more than one reader and reporting the gaps upstream, and comparing the catalogue against what should be there, so missing data shows up in a daily report rather than in someone's notebook. I've also learnt to make risky production changes in small, reversible steps: a dry run, then a canary, then the rest. Part of this comes from years of re-running ocean data pipelines by hand 😅 (I wrote about that in [From Cron Job to Self-Healing Pipeline](/posts/04_cron_to_self_healing/)), and the rest I learnt running pipelines in production.
 
-I also try to fix problems upstream rather than work around them. I've contributed GeoZarr dimension selection to [OpenLayers](https://github.com/openlayers/openlayers/pull/17542), a cache fix to [fsspec](https://github.com/fsspec/filesystem_spec/pull/2075), and fixes to tools in the STAC and eoAPI ecosystem. I started a supply-chain security effort at Development Seed, which produced a reusable [security-auditing GitHub Action](https://github.com/developmentseed/action-python-security-auditing) and a long series of small hardening pull requests across open-source geospatial repositories. In 2026 I spoke at FOSS4G Europe and UKEO and helped run an eoAPI + STAC workshop; the FOSS4G details are on the [talks](/talks) page.
+I also try to fix problems upstream rather than work around them. I've contributed GeoZarr dimension selection to [OpenLayers](https://github.com/openlayers/openlayers/pull/17542), a cache fix to [fsspec](https://github.com/fsspec/filesystem_spec/pull/2075), and fixes to tools in the STAC and eoAPI ecosystem. I started a supply-chain security effort at Development Seed, which produced a reusable [security-auditing GitHub Action](https://github.com/developmentseed/action-python-security-auditing). In 2026 I spoke at FOSS4G Europe and UKEO, and helped run an eoAPI + STAC workshop; the details are on the [talks](/talks) page.
+
 
 ## From observations to data people can use
 
@@ -30,7 +30,7 @@ At SAMS and then NOC, I worked on UK-OSNAP, the UK contribution to [OSNAP](https
 
 The two roles in between were different. At OSE Engineering the methods came from operations research rather than oceanography: I packaged vehicle-routing algorithms into Python libraries, with documentation and tutorials, for a delivery-robot prototype. At DWP I co-architected the container platform used to deploy the analytics and AI applications that cyber data scientists and analysts rely on. That is where I learnt to build and secure the infrastructure this kind of work runs on.
 
-At Development Seed the two sides meet again: the pipelines and data models I work on turn satellite archives into datasets that a scientist can open with a few lines of Python.
+At Development Seed the two sides meet again: the pipelines and data models I work on turn satellite archives into datasets that users can open with a few lines of Python, or visualize in their browser.
 
 ## Research years
 
