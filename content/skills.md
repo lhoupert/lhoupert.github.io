@@ -32,14 +32,15 @@ I transitioned to Python as my primary language in 2020 after extensive work wit
 
 ## 🗺️ Geospatial Data Engineering
 
-My decade working with oceanographic observations—processing data from underwater sensors, research vessels, and satellite altimetry—provided deep experience with large-scale scientific data workflows. This background translates directly to Earth observation infrastructure: both domains require robust data pipelines, quality control procedures, systematic metadata management, and cloud-optimized data formats.
+In oceanography I processed data from gliders, moorings, research ships and satellite altimetry, and published some of the results as open datasets. The problems carry over to Earth observation almost unchanged. You still need quality control and metadata that a stranger can understand, only now the data lives in object storage and the formats have to let people read just the part they need.
 
 | Domain | Experience & Approaches | Current Applications |
 |--------|------------------------|---------------------|
-| **Data Formats** | NetCDF, HDF5, GRIB → STAC, Zarr, COGs | Cloud-optimized geospatial formats |
-| **Processing** | Time-series analysis, quality control, uncertainty quantification | Earth observation data pipelines |
-| **Scale** | Datasets >200k observations, multi-platform integration | Terabyte-scale satellite imagery |
-| **Metadata** | CF conventions, standardized vocabularies | STAC catalogs, searchable metadata |
+| **Data Formats** | NetCDF, HDF5 → STAC, Zarr, COGs | Cloud-optimized geospatial formats |
+| **Processing** | Time-series and spectral analysis, gridding, quality control, uncertainty quantification | Earth observation data pipelines |
+| **Scale** | 140,000+ quality-controlled profiles merged from 13 databases, multi-platform integration | Terabyte-scale satellite archives |
+| **Metadata** | CF conventions, standardized vocabularies, documented datasets with DOIs | STAC catalogs, data-model version recorded in each item |
+| **Quality** | Calibration of moored CTD sensors against ship casts, sensor intercalibration, automatic and manual QC | STAC validation before publishing, GeoZarr conformance checks across readers |
 
 <br>
 
@@ -84,7 +85,7 @@ My experience with cloud infrastructure has taught me to appreciate both the tec
 
 ### 🐳 Containerization & Security Stack
 
-Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal, zero-CVE base images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
+Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal base images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
 
 <div class="career-architecture">
 
@@ -106,6 +107,20 @@ Container security emerged as a natural extension of my infrastructure work when
 
 A growing part of how I work is pairing with coding agents day to day - exploring unfamiliar codebases, drafting tests, and getting through the more mechanical parts of a refactor faster. I treat their output the way I treat my own first draft: useful, but nothing ships until I have read it, understood it, and can explain why each change is correct. Working this way has pushed me to be more deliberate about writing clear specifications and keeping a tight verification loop, not less.
 
+## 🧭 Design & Delivery
+
+A good part of my job doesn't show on the commit graph: working out what to build before building it, and how to change a system people already depend on without breaking it.
+
+| Practice | What it looks like in my work |
+|----------|-------------------------------|
+| **Architecture decisions** | Architecture decision records and MVP breakdowns written before the code, with open questions left explicit for the team |
+| **Capacity & data layout** | Capacity plans from measured throughput; chunk and shard layouts chosen from read benchmarks on the live data |
+| **Standards** | STAC, Zarr/GeoZarr and CF conventions, checked across readers (GDAL, TiTiler, OpenLayers) |
+| **Releases & versioning** | Automated semantic releases and pinned versions; the data-model version recorded in the catalogue; each data release tied to a tagged snapshot |
+| **Production changes** | Dry runs and canaries before full production runs, run limits enforced inside the tool, and an undo path rehearsed before the big runs |
+
+<br>
+
 ## 👥 Team Leadership & Enablement
 
 
@@ -119,22 +134,24 @@ I don't think that leading small teams was something I set out to do, it kind of
 Throughout my career, I've had opportunities to mentor and support team members:
 
 **Current Practice (Development Seed)**
-- Contributing to collaborative engineering culture in distributed teams
-- Sharing knowledge about geospatial data processing and cloud infrastructure
-- Supporting open-source community participation
+- Reviewing colleagues' and partners' pull requests in depth before release
+- Writing runbooks and playbooks the team can reuse, for example on container hardening and on registering datacube releases
+- Helping run eoAPI + STAC workshops, including prototyping isolated per-participant eoAPI stacks on Kubernetes for FOSS4G:UK 2026
 
 **Previous Leadership (DWP)**
-- Led team of 2 junior engineers through pair programming and knowledge sharing
+- Mentored four junior engineers through pair programming and knowledge sharing
 - Regular debugging sessions that became teaching moments
-- Developed comprehensive onboarding guides reducing setup time from days to hours
+- Wrote onboarding guides for new team members
 - Created reusable Terraform modules and Docker templates encoding best practices
-- Built testing strategies achieving 85% coverage implementation
+- Raised test coverage from 10% to 85% on two production web apps
 - Implemented pre-commit hooks and CI/CD standards balancing guidance with flexibility
 
 **Research Experience**
-- Trained PhD students and research staff in computational methodologies
-- Co-led oceanographic field campaigns coordinating 10+ team members
-- Mentored early-career scientists in data analysis techniques
+- Helped train PhD students and research staff in computational methods
+- Helped plan and run OSNAP mooring cruises with international teams of 10+ people
+- Mentored Master's students on research cruises and their thesis projects
+- Contributed to the OceanGliders water-transformation task team
+- Reviewed papers for JGR Oceans and Geophysical Research Letters, and research proposals
 
 ### Some Reflections on Technical Leadership
 
@@ -153,7 +170,7 @@ Throughout my career, I've had opportunities to mentor and support team members:
 
 - **Knowledge Sharing**: Contributing to documentation and learning resources for geospatial data engineering
 - **Open Source Participation**: Engaging with communities building Earth observation infrastructure
-- **Cross-Domain Translation**: Bridging scientific data processing and cloud-native engineering practices
+- **Science to Software**: Turning scientific data and methods into tools and datasets other people use, from glider and mooring toolboxes in my oceanography years to analysis-ready satellite datacubes today
 
 
 
