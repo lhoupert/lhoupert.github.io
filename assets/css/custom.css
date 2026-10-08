@@ -614,3 +614,12 @@
 .prose details.skill-more { border: 1px solid rgb(var(--color-neutral-200)); border-radius: .5rem; padding: .5rem 1rem; margin: 1rem 0; }
 .dark .prose dl.glance, .dark .prose details.skill-more { border-color: rgb(var(--color-neutral-700)); }
 .prose blockquote footer { font-size: .9em; margin-top: -.75em; padding-bottom: .5em; }
+.prose .evo { display: grid; gap: .75rem; margin: 1.5rem 0; text-align: center; }
+.prose .evo p { margin: 0; }
+.prose .evo-band { font-weight: 600; padding: .5rem; border-radius: .5rem; background: rgb(var(--color-primary-100)); color: rgb(var(--color-primary-900)); }
+.prose .evo-cols { display: grid; gap: .75rem; }
+@media (min-width: 640px) { .prose .evo-cols { grid-template-columns: repeat(3, 1fr); } }
+.prose .evo-card { border: 1px solid rgb(var(--color-neutral-200)); border-radius: .5rem; padding: .75rem; }
+.prose .evo .evo-title { font-weight: 600; margin-bottom: .25rem; }
+.dark .prose .evo-band { background: rgb(var(--color-primary-900)); color: rgb(var(--color-primary-100)); }
+.dark .prose .evo-card { border-color: rgb(var(--color-neutral-700)); }

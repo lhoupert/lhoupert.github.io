@@ -34,9 +34,6 @@ This is a snapshot of the tools and practices I actually reach for day to day: t
 
 [Python](#python)
 : uv · ruff · pyright · pytest · FastAPI · Xarray
-
-See it in
-: [EOPF Explorer pipelines]({{< relref "projects/eopf-explorer-sentinel-pipelines" >}}) · [CAnDL platform]({{< relref "projects/candl-platform" >}}) · [talks & workshops]({{< relref "talks" >}}) · [CV]({{< relref "cv" >}})
 {.stack .glance}
 
 ## 🗺️ Geospatial data engineering {#geospatial}
@@ -75,8 +72,6 @@ Quality
 : **Ocean:** calibration of moored CTD sensors against ship casts, sensor intercalibration, automatic and manual QC\
   **Earth observation:** STAC validation before publishing, GeoZarr conformance checks across readers (GDAL, TiTiler, OpenLayers)
 {.stack}
-
-_Where it shows: the [EOPF Explorer Sentinel pipelines]({{< relref "projects/eopf-explorer-sentinel-pipelines" >}}), [When Zarr Stopped Being a File Format]({{< relref "posts/02_1st_weeks_zarr" >}}), and the HEALPix and Icechunk datacubes and published datasets on my [CV]({{< relref "cv" >}})._
 
 ## 🧭 How I work {#how-i-work}
 
@@ -129,8 +124,6 @@ AWS (secondary cloud)
 
 My experience with cloud infrastructure has taught me to appreciate both the technical challenges of system design and the practical impact these systems have on development teams. Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal base images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
 
-_Where it shows: the [EOPF Explorer pipelines]({{< relref "projects/eopf-explorer-sentinel-pipelines" >}}) and [From Cron Job to Self-Healing Pipeline]({{< relref "posts/04_cron_to_self_healing" >}}) (Kubernetes, Argo, observability), the [CAnDL platform]({{< relref "projects/candl-platform" >}}) (Terraform, Chainguard images), and the supply-chain security work on my [CV]({{< relref "cv" >}})._
-
 ## 👥 Team leadership & enablement {#leadership}
 
 > The greatest good you can do for another is not just share your riches, but reveal to them their own.
@@ -151,8 +144,6 @@ I don't think that leading small teams was something I set out to do, it kind of
 - Created reusable Terraform modules and Docker templates encoding best practices
 - Raised test coverage from 10% to 85% on two production web apps
 - Implemented pre-commit hooks and CI/CD standards balancing guidance with flexibility
-
-Dated, role by role, on my [CV]({{< relref "cv" >}}).
 {{< /details >}}
 
 {{< details summary="**Earlier, in research (2010–2021)**: trained PhD students · OSNAP cruises with teams of 10+ · peer review for JGR Oceans and GRL" class="skill-more" >}}
@@ -161,8 +152,6 @@ Dated, role by role, on my [CV]({{< relref "cv" >}}).
 - Mentored Master's students on research cruises and their thesis projects
 - Contributed to the OceanGliders water-transformation task team
 - Reviewed papers for JGR Oceans and Geophysical Research Letters, and research proposals
-
-Dated, role by role, on my [CV]({{< relref "cv" >}}).
 {{< /details >}}
 
 **Learning Through Collaboration**: Some of my most valuable moments happen when working alongside my teammates on challenging problems. Those debugging sessions often become mutual learning experiences where we both discover better approaches to error handling and system design.
@@ -205,24 +194,15 @@ The three branches reflect my career evolution: **Scientific Thinking** from res
 
 The **Continuous Learning** foundation feels essential: every role change, technology, or colleague conversation adds to this framework. It's how I approach growth: staying curious, building on what I know, and helping others grow too.
 
-```text
-           PROBLEM SOLVING
-         (the driving force)
-                  │
-     ┌────────────┼────────────┐
-     ▼            ▼            ▼
-SCIENTIFIC → ENGINEERING  →  TEAM
- THINKING     PRACTICES   LEADERSHIP
-
-systematic   automation    mentoring
- rigorous     security      pairing
-data-driven  scalability   standards
-     ▲            ▲            ▲
-     └────────────┼────────────┘
-                  │
-         CONTINUOUS LEARNING
-          (the foundation)
-```
+<div class="evo">
+  <p class="evo-band">Problem solving</p>
+  <div class="evo-cols">
+    <div class="evo-card"><p class="evo-title">Scientific thinking</p><p>systematic · rigorous · data-driven</p></div>
+    <div class="evo-card"><p class="evo-title">Engineering practices</p><p>automation · security · scalability</p></div>
+    <div class="evo-card"><p class="evo-title">Team leadership</p><p>mentoring · pairing · standards</p></div>
+  </div>
+  <p class="evo-band">Continuous learning</p>
+</div>
 
 **What I'm focused on now** (as of October 2026)
 - **Knowledge Sharing**: Contributing to documentation and learning resources for geospatial data engineering
