@@ -1,7 +1,7 @@
 ---
 title: "Skills"
 date: 2025-11-12
-lastmod: 2026-10-08
+lastmod: 2026-10-09
 description: "The tools and practices I reach for day to day: cloud-native geospatial data, how I deliver, Kubernetes platforms, working with teams, and Python."
 showDate: false
 showDateUpdated: true
@@ -18,13 +18,13 @@ Page shape (keep it at each refresh):
 - Lists are definition lists: a label line, then ": value". Leave a BLANK LINE between entries,
   and put {.stack} on the line right after the last entry.
 - Never put a heading inside a details block (the TOC link would not open it).
-- Bump lastmod and "As of <month year>" at each refresh.
+- Bump lastmod at each refresh.
 -->
 
 This is a snapshot of the tools and practices I actually reach for day to day: the Earth observation data I work with and how I go about it, the infrastructure I run things on, how I work with teams, and the language I write it all in. Most of it grew out of one recurring problem: making large-scale scientific data less painful to work with. If you want the story of how I got from ocean data to Earth observation, that is on the [about page](/about).
 
 [Data & geospatial](#geospatial)
-: STAC & pgSTAC · Zarr / GeoZarr · Icechunk · COGs · TiTiler & eoAPI
+: STAC & pgSTAC · Zarr / GeoZarr · Icechunk · TiTiler & eoAPI
 
 [How I work](#how-i-work) & [teams](#leadership)
 : ADRs before code · dry runs and canaries · in-depth reviews · runbooks · workshops
@@ -41,27 +41,24 @@ This is a snapshot of the tools and practices I actually reach for day to day: t
 In oceanography I processed data from gliders, moorings, research ships and satellite altimetry, and published some of the results as open datasets. The problems carry over to Earth observation almost unchanged. You still need quality control and metadata that a stranger can understand, only now the data lives in object storage and the formats have to let people read just the part they need.
 
 Formats & catalogues
-: STAC & pgSTAC · Zarr v3 · GeoZarr · Icechunk · Cloud-Optimized GeoTIFFs (COGs) · VirtualiZarr · HEALPix · NetCDF · HDF5
+: STAC & pgSTAC · Zarr v3 · GeoZarr · Icechunk · HEALPix · NetCDF
 
 Services
 : TiTiler · eoAPI
-
-Geospatial libraries
-: Rasterio · GDAL · PyProj · GeoPandas · Shapely · S1Tiling/OTB
 {.stack}
 
 **Ocean data then, Earth observation now**
 
 Formats
 : **Ocean:** NetCDF, HDF5\
-  **Earth observation:** STAC, Zarr, COGs: cloud-optimized geospatial formats
+  **Earth observation:** STAC, Zarr, cloud-optimized geospatial formats
 
 Processing
 : **Ocean:** time-series and spectral analysis, gridding, quality control, uncertainty quantification\
   **Earth observation:** data pipelines
 
 Scale
-: **Ocean:** 140,000+ quality-controlled profiles merged from 13 databases, multi-platform integration\
+: **Ocean:** ocean model output and reanalyses, plus 140,000+ quality-controlled profiles merged from 13 databases\
   **Earth observation:** terabyte-scale satellite archives
 
 Metadata
@@ -84,7 +81,7 @@ Capacity & data layout
 : Capacity plans from measured throughput; chunk and shard layouts chosen from read benchmarks on the live data
 
 Standards
-: STAC, Zarr/GeoZarr and CF conventions, checked across readers
+: STAC, Zarr/GeoZarr and CF conventions
 
 Releases & versioning
 : Automated semantic releases and pinned versions; the data-model version recorded in the catalogue; each data release tied to a tagged snapshot
@@ -93,12 +90,12 @@ Production changes
 : Dry runs and canaries before full production runs, run limits enforced inside the tool, and an undo path rehearsed before the big runs
 
 Working with coding agents
-: Coding agents for exploring code, investigating and reviewing as well as writing; nothing ships until I can explain why each change is correct, and before I share an explanation of a fault, a second agent tries to refute it
+: Coding agents for exploring code, investigating and reviewing; changes are not shipped until I can explain them; adversarial agents to challenge and test architecture design and decisions
 {.stack}
 
 ## 🏗️ Infrastructure & DevOps {#infrastructure}
 
-I discovered DevOps practices out of necessity - managing research data across multiple environments taught me that manual processes don't scale, and inconsistency often leads to problems. Now I find myself gravitating toward automation not just for efficiency and repeatability but because it forces clarity in thinking. _"If you can't automate it, you probably don't understand it well enough yet."_
+I discovered DevOps practices out of necessity: managing research data across multiple environments taught me that manual processes don't scale, and inconsistency often leads to problems. Now I find myself gravitating toward automation not just for efficiency and repeatability but because it forces clarity in thinking. _"If you can't automate it, you probably don't understand it well enough yet."_
 
 Orchestration
 : Kubernetes (OVH/OpenStack) · Argo Workflows (batch pipelines) · Argo Events (data-driven triggers) → data-driven Earth observation pipelines
@@ -118,11 +115,11 @@ Security
 Observability
 : Grafana · Loki · Prometheus · Falco → catching silent failures early
 
-AWS (secondary cloud)
+AWS
 : boto3 · AWS CDK constructs · Lambda functions
 {.stack}
 
-My experience with cloud infrastructure has taught me to appreciate both the technical challenges of system design and the practical impact these systems have on development teams. Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal base images has shown me that security practices can actually simplify operations - fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
+My experience with cloud infrastructure has taught me to appreciate both the technical challenges of system design and the practical impact these systems have on development teams. Container security emerged as a natural extension of my infrastructure work when I began focusing on platform reliability and team productivity. Working with minimal base images has shown me that security practices can actually simplify operations: fewer vulnerabilities mean less time spent on patches and more predictable deployment cycles.
 
 ## 👥 Team leadership & enablement {#leadership}
 
@@ -130,7 +127,6 @@ My experience with cloud infrastructure has taught me to appreciate both the tec
 >
 > <footer>— Benjamin Disraeli</footer>
 
-I don't think that leading small teams was something I set out to do, it kind of emerged from wanting to share what I'd learned and help others to grow. My experience in academia certainly helped me in developing a strong mentoring culture.
 
 **Now, at Development Seed**
 - Reviewing colleagues' and partners' pull requests in depth before release
@@ -158,7 +154,7 @@ I don't think that leading small teams was something I set out to do, it kind of
 
 **Freedom Through Structure**: I've found it interesting how clear technical guidelines can actually increase creativity. When the team doesn't have to worry about formatting or basic quality checks, I think it creates more mental space to focus on solving the actual problems at hand.
 
-**From Solving to Enabling**: I'm gradually shifting from "I know how to fix this" to "How can we build systems so this problem becomes easier for everyone to solve?" When I built that Docker Compose environment to allow the team to run integration tests between our web application, graph database, and splunk server, it didn't just solve an immediate problem, it removed a recurring blocker for everyone.
+**From Solving to Enabling**: I shifted my way of thinking from "I know how to fix this" to "How can we build systems so this problem becomes easier for everyone to solve?"
 
 ## 🐍 Python {#python}
 
@@ -204,7 +200,7 @@ The **Continuous Learning** foundation feels essential: every role change, techn
   <p class="evo-band">Continuous learning</p>
 </div>
 
-**What I'm focused on now** (as of October 2026)
+**What I'm currently focussing on**
 - **Knowledge Sharing**: Contributing to documentation and learning resources for geospatial data engineering
 - **Open Source Participation**: Engaging with communities building Earth observation infrastructure
 - **Science to Software**: Turning scientific data and methods into tools and datasets other people use, from glider and mooring toolboxes in my oceanography years to analysis-ready satellite datacubes today
