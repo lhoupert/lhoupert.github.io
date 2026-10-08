@@ -10,13 +10,13 @@ title = "Loïc Houpert"
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Loïc Houpert is a cloud engineer at Development Seed, working on data pipelines and open-source tools for Earth observation. Former physical oceanographer."
 
 [params.author]
   name = "Loïc Houpert"
   image = "img/loic2web.jpg"
-  headline = "Cloud engineer for Earth observation data systems, from design to production <br> Former physical oceanographer"
-  bio = "I'm a cloud engineer at Development Seed. I design and run the pipelines that turn satellite archives into analysis-ready, cloud-native datasets, for organizations such as ESA and EUMETSAT. Before that I spent about ten years as a physical oceanographer, writing processing code and publishing open datasets for glider and mooring observations in the North Atlantic and the Mediterranean."
+  headline = "Cloud engineer making Earth observation data easier to use <br> Former physical oceanographer"
+  bio = "I am a cloud engineer at Development Seed. I build data pipelines and contribute to open-source tools that make Earth observation data more accessible, so it can be used for environmental monitoring, climate research and open science. Before moving into engineering, I spent about ten years as a physical oceanographer, working with gliders and moorings, and publishing open datasets for other scientists."
   links = [
      { linkedin = "https://www.linkedin.com/in/lo%C3%AFc-h-29232037/" },
      { github = "https://github.com/lhoupert" },
