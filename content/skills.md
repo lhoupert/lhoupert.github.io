@@ -24,7 +24,7 @@ Page shape (keep it at each refresh):
 This is a snapshot of the tools and practices I actually reach for day to day: the Earth observation data I work with and how I go about it, the infrastructure I run things on, how I work with teams, and the language I write it all in. Most of it grew out of one recurring problem: making large-scale scientific data less painful to work with. If you want the story of how I got from ocean data to Earth observation, that is on the [about page](/about).
 
 [Data & geospatial](#geospatial)
-: STAC & pgSTAC · Zarr / GeoZarr · Icechunk · TiTiler & eoAPI
+: STAC · Zarr / GeoZarr · Icechunk · TiTiler & eoAPI
 
 [How I work](#how-i-work) & [teams](#leadership)
 : ADRs before code · dry runs and canaries · in-depth reviews · runbooks · workshops
@@ -41,7 +41,7 @@ This is a snapshot of the tools and practices I actually reach for day to day: t
 In oceanography I processed data from gliders, moorings, research ships and satellite altimetry, and published some of the results as open datasets. The problems carry over to Earth observation almost unchanged. You still need quality control and metadata that a stranger can understand, only now the data lives in object storage and the formats have to let people read just the part they need.
 
 Formats & catalogues
-: STAC & pgSTAC · Zarr v3 · GeoZarr · Icechunk · HEALPix · NetCDF
+: STAC · Zarr v3 · GeoZarr · Icechunk · HEALPix · NetCDF
 
 Services
 : TiTiler · eoAPI
