@@ -21,27 +21,27 @@
  [[main]]
   name = "CV"
   pageRef = "cv"
-  weight = 9
+  weight = 10
 
  [[main]]
   name = "Skills"
   pageRef = "skills"
-  weight = 10
+  weight = 6
 
  [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 8
+  weight = 7
 
  [[main]]
   name = "Talks"
   pageRef = "talks"
-  weight = 7
+  weight = 8
 
  [[main]]
    name = "Blog"
    pageRef = "posts"
-   weight = 6
+   weight = 9
 
 # [[main]]
 #   name = "Tags"
