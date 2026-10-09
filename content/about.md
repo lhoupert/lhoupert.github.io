@@ -2,6 +2,9 @@
 title: "About Me"
 date: 2026-10-08
 layout: article
+showReadingTime: false
+showAuthor: false
+showPagination: false
 ---
 
 I am a cloud engineer at [Development Seed](https://developmentseed.org/), based in Durham, UK. Most of my work is about making Earth observation data easier to use: building the pipelines that turn satellite archives into analysis-ready datasets, and contributing to the open-source tools people use to read them.
