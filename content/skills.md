@@ -21,7 +21,7 @@ Page shape (keep it at each refresh):
 - Bump lastmod at each refresh.
 -->
 
-This is a snapshot of the tools and practices I actually reach for day to day: the Earth observation data I work with and how I go about it, the infrastructure I run things on, how I work with teams, and the language I write it all in. Most of it grew out of one recurring problem: making large-scale scientific data less painful to work with. If you want the story of how I got from ocean data to Earth observation, that is on the [about page](/about).
+On this page I tried to provide a snapshot of my tools and practices: the Earth observation data I work with and how I go about it, the infrastructure I run things on, how I work with teams, and the language I write it all in.
 
 [Data & geospatial](#geospatial)
 : STAC · Zarr / GeoZarr · Icechunk · TiTiler & eoAPI
@@ -131,7 +131,7 @@ My experience with cloud infrastructure has taught me to appreciate both the tec
 **Now, at Development Seed**
 - Reviewing colleagues' and partners' pull requests in depth before release
 - Writing runbooks and playbooks the team can reuse, for example on container hardening and on registering datacube releases
-- Helping run [eoAPI + STAC workshops]({{< relref "talks" >}}), including prototyping isolated per-participant eoAPI stacks on Kubernetes for FOSS4G:UK 2026
+- Helping run [eoAPI + STAC workshops]({{< relref "talks" >}})
 
 {{< details summary="**Earlier, at DWP (2022–2025)**: mentored four junior engineers · onboarding guides · test coverage from 10% to 85%" class="skill-more" >}}
 - Mentored four junior engineers through pair programming and knowledge sharing
@@ -186,9 +186,9 @@ Documentation
 
 The diagram below shows how I understand my professional development, with **Problem Solving** as "the driving force".
 
-The three branches reflect my career evolution: **Scientific Thinking** from research years where you learn to be systematic and question everything, **Engineering Practices** developed transitioning to software development, and **Team Leadership** emerging as I found sharing knowledge often more impactful than individual work. These areas reinforce each other: my research background helps me approach infrastructure methodically, engineering experience makes me a better mentor, and team work drives more systematic thinking.
+I like the idea of representing my career evolution into three different branches: **Scientific Thinking** from research years where I learnt to be systematic and question everything, **Engineering Practices** developed transitioning to software development, and **Team Leadership** , the area I think I am growing most, as I found sharing knowledge often more impactful than individual work. I think these areas reinforce each other: my research background helps me approach infrastructure methodically, engineering experience makes me a better mentor, and team work drives more systematic thinking.
 
-The **Continuous Learning** foundation feels essential: every role change, technology, or colleague conversation adds to this framework. It's how I approach growth: staying curious, building on what I know, and helping others grow too.
+The **Continuous Learning** foundation seems also to me essential, it is thanks to this that I have been able to developed these three branches, through my various role changes, technologies I learnt, or conversations I had with my colleagues.  I think it is the way I approach growth: staying curious, building on what I know, and helping others grow too.
 
 <div class="evo">
   <p class="evo-band">Problem solving</p>
