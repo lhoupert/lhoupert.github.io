@@ -1,10 +1,10 @@
 ---
 title: "Talks & Workshops"
-date: 2026-10-06
+date: 2026-11-16
 layout: simple
 ---
 
-**[The new format for all Sentinel products: EOPF Zarr](https://talks.osgeo.org/foss4g-uk-2026/talk/FWLKXA/)** — FOSS4G:UK 2026, Leeds, 13 October 2026. Lightning talk.
+**[EOPF Zarr, testing a new format for all Sentinel products](https://talks.osgeo.org/foss4g-uk-2026/talk/FWLKXA/)** — FOSS4G:UK 2026, Leeds, 13 October 2026. Lightning talk. [Slides](https://talks.osgeo.org/media/foss4g-uk-2026/submissions/FWLKXA/resources/FOSS4GUK-2026-lightning-loic-hou_4mkT83V.pdf).
 A five-minute introduction to EOPF Zarr, the Zarr-based format ESA is exploring for Sentinel products: its design, current status, and the open-source tools growing around it.
 
 **[eoAPI with STAC for Earth Data at scale](https://talks.osgeo.org/foss4g-uk-2026/talk/MPE9FK/)** — FOSS4G:UK 2026, Leeds, 12 October 2026. Workshop, co-run with Ciaran Sweet.

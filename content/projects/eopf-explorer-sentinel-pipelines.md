@@ -8,7 +8,7 @@ draft: false
 
 ## What it is
 
-Since November 2025 I've worked on ESA's EOPF Explorer, building the pipelines that turn raw Sentinel data into analysis-ready, cloud-native datasets. My work has mostly been in three areas: converting Sentinel-2 products into GeoZarr at scale, the operational machinery that keeps a large catalogue healthy without manual intervention, and extending the pipeline to Sentinel-1.
+Since November 2025 I have worked on ESA's EOPF Explorer, building the pipelines that turn raw Sentinel data into analysis-ready, cloud-native datasets. My work has mostly been in three areas: converting Sentinel-2 products into GeoZarr at scale, the operational machinery that keeps a large catalogue healthy without manual intervention, and extending the pipeline to Sentinel-1. More recently I have also worked on the services that serve and check the data.
 
 ## Sentinel-2: GeoZarr ingestion at scale
 
@@ -24,6 +24,8 @@ I gave a talk at FOSS4G Europe 2026 on this "self-healing" design: [From Cron Jo
 
 The newest strand was an RTC pipeline for Sentinel-1 GRD imagery, built as an MVP to show how to produce multidimensional GeoZarr datacubes (time x latitude x longitude) per tile. It was built on the Orfeo ToolBox and S1Tiling, fetched Copernicus DEM tiles on demand, and was triggered by new acquisitions. The MVP covered an area of interest spanning mainland France and the Alps (~160 tiles), appending each acquisition into per-tile datacubes served through TiTiler. I contributed its GeoZarr data model and STAC builders to the open-source [eopf-geozarr](https://github.com/EOPF-Explorer/data-model) library.
 
+## Serving and checking the data
 
+On the Explorer's tile service, [titiler-eopf](https://github.com/EOPF-Explorer/titiler-eopf), I moved its S3 tile cache to non-blocking calls and fixed how the cache builds its keys. I also contributed to [titiler-openeo](https://github.com/sentinel-hub/titiler-openeo), on which the Explorer's openEO API is built. And I built eopf-accept (in [data_model_validation_tests](https://github.com/EOPF-Explorer/data_model_validation_tests)), a read-only acceptance suite that checks a freshly built GeoZarr store before and after it is registered in the catalogue.
 
-*Stack: Kubernetes, Argo Workflows & Events, Zarr, STAC, TiTiler/eoAPI, Python.*
+*Stack: Kubernetes, Argo Workflows & Events, Zarr, STAC, TiTiler/eoAPI, openEO, Python.*
