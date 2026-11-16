@@ -13,7 +13,7 @@ I am a cloud engineer at [Development Seed](https://developmentseed.org/), based
 
 I am a strong believer in open source and open data. What attracted me to Development Seed is that its projects make scientific data more accessible, build on open standards and open-source tools, and contribute to environmental monitoring, climate research and open science. 
 
-When a tool I depend on has a problem, I would rather fix it upstream than work around it. I have contributed to various projects and tools in the STAC and eoAPI ecosystem, and I started a supply-chain security effort for Development Seed's open-source repositories.
+When a tool I depend on has a problem, I would rather fix it upstream than work around it. I have contributed to various projects and tools in the STAC and eoAPI ecosystem (some are listed on my [open-source page](/projects/open-source/)), and I started a supply-chain security effort for Development Seed's open-source repositories.
 
 I also like sharing what I learn. Preparing a talk or a workshop is one of the fastest ways I know to find the gaps in my own understanding, and giving it starts conversations that would never have happened otherwise. In 2026 I spoke at FOSS4G Europe, the UK Earth Observation Conference and FOSS4G:UK, and helped run two eoAPI + STAC workshops (more on the [talks](/talks/) page). I write about what I learn on [this blog](/posts/).
 
