@@ -1,10 +1,10 @@
 ---
 title: "CV"
-date: 2026-10-06
+date: 2026-11-16
 layout: simple
 ---
 
-I started in physical oceanography, where I spent about ten years (2010–2021) observing the ocean with gliders, moorings and research ships, writing processing code and publishing open datasets so others could use those observations. I then moved into software and cloud engineering, and since November 2025 I've been building Earth observation data systems at Development Seed.
+I started in physical oceanography, where I spent about ten years (2010–2021) observing the ocean with gliders, moorings and research ships, writing processing code and publishing open datasets so others could use those observations. I then moved into software and cloud engineering, and since November 2025 I have been building Earth observation data systems at Development Seed.
 
 
 
@@ -17,11 +17,13 @@ I started in physical oceanography, where I spent about ten years (2010–2021) 
 
 **Earth observation data systems**
 - Worked on the Sentinel-to-GeoZarr conversion and STAC registration pipelines for ESA's EOPF Sentinel Zarr Explorer (Kubernetes, Argo Workflows), and built most of the storage lifecycle and retention automation
-- Added STAC validation before publishing and GeoZarr conformance checks across readers (GDAL, TiTiler, OpenLayers), reporting validator gaps upstream
+- Added STAC validation before publishing and GeoZarr conformance checks across readers (GDAL, TiTiler, OpenLayers), then built eopf-accept, a read-only acceptance suite for freshly built GeoZarr stores; reported validator gaps and a GDAL bug upstream
+- Worked on the Explorer's tile service (cache and build fixes in titiler-eopf) and contributed to titiler-openeo, on which its openEO API is built: a fix for STAC items with a null datetime, a minimal container image scanned in CI, and database set-up moved into a Helm job
 - Co-wrote the first architecture decision record and MVP plan for onboarding EUMETSAT data into the Destination Earth Data Lake, then built a large part of the chain that turns satellite products into HEALPix Zarr and Icechunk datacubes, including the MSG SEVIRI and MTG FCI cubes, with STAC metadata and quickstart notebooks for users
 - Turned throughput benchmarks into a capacity plan for the MVP, and chose datacube chunk layouts from read benchmarks on the live stores
 - Started Development Seed's supply-chain security effort: a reusable security-auditing GitHub Action and pinning/Dependabot fixes across Development Seed and community geospatial repositories
-- Upstream contributions to OpenLayers (GeoZarr dimension selection) and fixes in fsspec and the STAC/eoAPI tooling; talks at FOSS4G Europe and UKEO 2026, and helped run an eoAPI + STAC workshop
+- Upstream contributions to OpenLayers (GeoZarr dimension selection), fsspec and the STAC/eoAPI tooling, most recently smaller container images and automated releases (release-please) across several STAC and eoAPI projects
+- Talks at FOSS4G Europe, UKEO and FOSS4G:UK 2026, and helped run eoAPI + STAC workshops at FOSS4G Europe and FOSS4G:UK
 
 
 ---
@@ -63,7 +65,7 @@ I started in physical oceanography, where I spent about ten years (2010–2021) 
 *National Oceanography Centre | Southampton, UK*
 
 **Subpolar North Atlantic circulation and transport**
-- Published the first four years of continuous North Atlantic Current volume transport measurements from the OSNAP mooring array in the Rockall Trough (JGR Oceans, 2020), using an ocean reanalysis to fill a gap at the shelf edge. Quantified the uncertainty with Monte Carlo propagation of instrument errors and with sampling tests on repeat ship sections, and released the time series openly; a 2026 study by the SAMS and NOC team builds on it for a decade-long record
+- Published the first four years of continuous North Atlantic Current volume transport measurements from the OSNAP mooring array in the Rockall Trough (JGR Oceans, 2020), using an ocean reanalysis to fill a gap at the shelf edge. Quantified the uncertainty with Monte Carlo propagation of instrument errors and with sampling tests on repeat ship sections, and released the time series openly; a [2026 study](https://doi.org/10.5194/os-22-167-2026) by the SAMS and NOC team builds on it for a decade-long record
 - Co-authored a study of Nordic Seas overturning, and the associated heat flux, over the past 70–100 years (GRL, 2020), and contributed to EU Blue-Action and ATLAS project reports, including the glider volume-transport section of a Blue-Action report on heat transport toward the Arctic
 - Extended the OSNAP mooring processing toolbox to NOC's Iceland Basin moorings and co-created the resulting BODC dataset
 - Moved my analysis to Python (xarray, pandas), with reproducible and containerised workflows (conda, Docker, Binder, CI)
@@ -98,7 +100,7 @@ I started in physical oceanography, where I spent about ten years (2010–2021) 
 
 ## Selected publications and open data
 
-The full list is on [Google Scholar](https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0001-8750-5631).
+35 peer-reviewed papers (2013–2022), four of them as first author. The full list is on [Google Scholar](https://scholar.google.com/citations?user=10K7fIYAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0001-8750-5631).
 
 **First-author papers**
 - Houpert, L., et al. (2020). Observed variability of the North Atlantic Current in the Rockall Trough from 4 years of mooring measurements. *JGR: Oceans*. [doi:10.1029/2020JC016403](https://doi.org/10.1029/2020JC016403)

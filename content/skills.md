@@ -1,7 +1,7 @@
 ---
 title: "Skills"
 date: 2025-11-12
-lastmod: 2026-10-09
+lastmod: 2026-11-16
 description: "The tools and practices I reach for day to day: cloud-native geospatial data, how I deliver, Kubernetes platforms, working with teams, and Python."
 showDate: false
 showDateUpdated: true
@@ -44,7 +44,7 @@ Formats & catalogues
 : STAC · Zarr v3 · GeoZarr · Icechunk · HEALPix · NetCDF
 
 Services
-: TiTiler · eoAPI
+: TiTiler · eoAPI · openEO
 {.stack}
 
 **Ocean data then, Earth observation now**
